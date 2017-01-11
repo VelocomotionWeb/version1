@@ -1,0 +1,36 @@
+<?php
+
+global $_MODULE;
+$_MODULE = array();
+$_MODULE['<{ddlx_live_chat}prestashop>ddlx_live_chat_3bf6f5c5cc2244d04190865f214de17c'] = 'Ce module vous permet de chatter avec vos clients.';
+$_MODULE['<{ddlx_live_chat}prestashop>ddlx_live_chat_3a0dedc0efe68e3683afa9b03405d974'] = 'Le meilleurs générateur de thème pour Prestashop 1.6';
+$_MODULE['<{ddlx_live_chat}prestashop>ddlx_live_chat_7597dac0b8989e0238a67b888446231c'] = 'Decouvrir le Evolution X';
+$_MODULE['<{ddlx_live_chat}prestashop>ddlx_live_chat_9057a71c7a51c7e7d8af3191a62c0def'] = 'Testez le Evolution X';
+$_MODULE['<{ddlx_live_chat}prestashop>ddlx_live_chat_fc4ec23f6048aa20749093712c2e6eeb'] = 'Forum DDLX ';
+$_MODULE['<{ddlx_live_chat}prestashop>ddlx_live_chat_a48ac3824cfcff620099f9fee7980117'] = 'Hébergement pro prestashop';
+$_MODULE['<{ddlx_live_chat}prestashop>ddlx_live_chat_05dca8341f6a750fd153d009524c7802'] = 'Module développé par DDLX Multimédia, agence web et hébergeur.';
+$_MODULE['<{ddlx_live_chat}prestashop>ddlx_live_chat_363ef160936b3f7f979be64a9be1d166'] = 'Clients connectés';
+$_MODULE['<{ddlx_live_chat}prestashop>ddlx_live_chat_ba872a3c8215a65b1adee101e90bee88'] = 'IP bannies';
+$_MODULE['<{ddlx_live_chat}prestashop>ddlx_live_chat_e4894ca167b08880bfc35862f18575eb'] = 'disponible';
+$_MODULE['<{ddlx_live_chat}prestashop>ddlx_live_chat_c9cb78fafe28b1a0e1375ab550c17748'] = 'Une erreur s\'est produite, le chat ne peut pas fonctionner. Si le problème persiste, veuillez contacter un administrateur.';
+$_MODULE['<{ddlx_live_chat}prestashop>ddlx_live_chat_27a21354321dfbc28f0cb17b995bb9ca'] = 'hors ligne';
+$_MODULE['<{ddlx_live_chat}prestashop>ddlx_live_chat_087bad201e6ee744aa997825c2e8c67e'] = 'Une erreur s\'est produite, le chat ne peut pas fonctionner. Si le problème persiste, veuillez contacter un administrateur.';
+$_MODULE['<{ddlx_live_chat}prestashop>merchant-chat-js_913e7df69379e76c045afa2f7109c2e7'] = 'Aucun client connecté';
+$_MODULE['<{ddlx_live_chat}prestashop>merchant-chat-js_0be8406951cdfda82f00f79328cf4efc'] = 'Commentaire';
+$_MODULE['<{ddlx_live_chat}prestashop>merchant-chat-js_c9cc8cce247e49bae79f15173ce97354'] = 'Sauvegarder';
+$_MODULE['<{ddlx_live_chat}prestashop>merchant-chat-js_ca4dd6a5ff01e07a7e1de1f642684b69'] = 'Bannir cette IP !';
+$_MODULE['<{ddlx_live_chat}prestashop>merchant-chat-js_d7fcfb010dcde7140b956857c3fe519e'] = 'Commentaire sauvegardé';
+$_MODULE['<{ddlx_live_chat}prestashop>merchant-chat-js_633986616806bdb325b3c35ae6135269'] = 'Dernières 24 heures';
+$_MODULE['<{ddlx_live_chat}prestashop>merchant-chat-js_1e1cc9bdeb2f29f5480106aec7e9bc48'] = 'Maintenant';
+$_MODULE['<{ddlx_live_chat}prestashop>merchant-chat-js_03363f344883c7379785c33d0b81ef26'] = 'Êtes-vous sûr de ne plus vouloir parler à ce client ?';
+$_MODULE['<{ddlx_live_chat}prestashop>merchant-chat-js_02ba57ea122d89c21dc08cd868653719'] = 'Client banni.';
+$_MODULE['<{ddlx_live_chat}prestashop>merchant-chat-js_b06c7f6335c33443e6d64c6061cef138'] = 'Impossible de bannir.';
+$_MODULE['<{ddlx_live_chat}prestashop>merchant-chat-js_78a14220d9ab43ddd8c542571098c29b'] = 'Une erreur est survenue, impossible d\'envoyer le message';
+$_MODULE['<{ddlx_live_chat}prestashop>merchant-chat-js_671039cdfaab28cf2781984f1531a9ec'] = 'Erreur AJAX, impossible d\'envoyer le message';
+$_MODULE['<{ddlx_live_chat}prestashop>merchant-chat-js_e3da5ee0301c144b706a7344e1112ddb'] = 'chat en attente';
+$_MODULE['<{ddlx_live_chat}prestashop>merchant-chat-js_8989698022745095bf87fc9f6f29d2b3'] = 'chats en attente';
+$_MODULE['<{ddlx_live_chat}prestashop>client-chat-js_e4894ca167b08880bfc35862f18575eb'] = 'disponible';
+$_MODULE['<{ddlx_live_chat}prestashop>client-chat-js_ad921d60486366258809553a3db49a4a'] = 'inconnu';
+$_MODULE['<{ddlx_live_chat}prestashop>client-chat-js_7060e0481896e00b3f7d20f1e8e2749a'] = 'indisponible';
+$_MODULE['<{ddlx_live_chat}prestashop>client-chat-js_c3f88e5038c43468d57880b39c382d0f'] = 'Vous êtes banni de ce chat.';
+$_MODULE['<{ddlx_live_chat}prestashop>client-chat-js_a7e7c19a49e1048217f96304d9cdf620'] = 'Une erreur s\'est produite, le message n\'a pas été envoyé.';

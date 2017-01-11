@@ -1,0 +1,22 @@
+    <link rel="prefetch stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800,600">
+    <link rel="stylesheet" href="/js/autocomplete-master/dist/teleport-autocomplete.css">
+    <script src="/js/autocomplete-master/dist/teleport-autocomplete.js"></script>
+
+
+  <body>
+    <h1>City Autocomplete Example</h1>
+    <input type="text" class="my-input" name="field" tabindex="1" autocomplete="off">
+
+    <h3>Result history:</h3>
+    <div class="results"></div>
+
+    <script>
+      var $results = document.querySelector('.results');
+      var appendToResult = $results.insertAdjacentHTML.bind($results, 'afterend');
+
+      TeleportAutocomplete.init('.my-input').on('change', function(value) {
+        appendToResult('<pre>' + JSON.stringify(value, null, 2) + '</pre>');
+      });
+    </script>
+  </body>
+</html>

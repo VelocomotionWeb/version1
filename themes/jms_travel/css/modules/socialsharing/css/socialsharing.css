@@ -1,0 +1,18 @@
+.socialsharing_product {
+	margin:0px;		
+	padding:30px 0px;
+}
+
+.sendtofriend i {
+	color: #70777c;
+    margin-right: 10px;
+}
+.socialsharing_product button:hover {
+	background:#F64747;
+	color:#FFF;
+	border:1px solid #F64747;
+}
+.social-left {
+	background:#FFF;
+	padding:15px;
+}

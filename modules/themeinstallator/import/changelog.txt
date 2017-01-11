@@ -1,0 +1,17 @@
+Jms Travel 1.0.0, 20016-01-08
+-------------------------
+- Release Version 1.0.0
+
+Jms Travel 1.1.0, 20016-01-22
+-------------------------
+- Release Version 1.1.0
+-------------------------
+- fix json decode error 
+- fix blog Install issue
+- fix themelayout issue (strlen,substr,strtolower)
+
+Jms Travel 1.2.0, 20016-01-26
+-------------------------
+- Release Version 1.2.0
+-------------------------
+- Check all Sql and cast all the variables.

@@ -1,0 +1,12 @@
+.mplink {
+	float:left;
+	width:100%;
+	text-align:right;
+	padding-right: 15px;
+}
+.mplink h3 a {
+	color:#0088CC !important;
+	font-size: 18px !important;
+	font-weight: normal !important;
+	text-decoration: none !important;
+}

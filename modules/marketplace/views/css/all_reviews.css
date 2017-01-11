@@ -1,0 +1,28 @@
+#seller_review
+{
+ width:100%;
+ float:left;
+ color:#666666;
+}
+.review
+{
+ float:left;
+ width:100%;
+ margin-top:5px;
+ padding:1%;
+ width:98%;
+}
+.seller_row
+{
+ width:100%;
+ float:left;
+ margin-top:5px;
+}
+h1
+{
+ color:red;
+}
+#left_column,#right_column
+{
+ display:none;
+}

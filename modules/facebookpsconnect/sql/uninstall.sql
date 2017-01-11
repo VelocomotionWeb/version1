@@ -1,0 +1,2 @@
+DROP TABLE IF EXISTS `PREFIX_connect`;
+DROP TABLE IF EXISTS `PREFIX_customer_assoc`;

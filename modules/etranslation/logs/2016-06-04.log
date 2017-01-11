@@ -1,0 +1,146 @@
+2016-06-04 16:08:09 : *******************************
+2016-06-04 16:08:09 : DO_IMPORT, démarrage du process
+2016-06-04 16:08:09 : export_id_lang=1
+2016-06-04 16:08:09 : moving C:\wamp\tmp\php4E15.tmp vers etranslation_fr_20160604_160809.xml
+2016-06-04 16:08:09 : moving OK
+2016-06-04 16:08:09 : Product Treatment 
+2016-06-04 16:08:09 : cms Page processing
+2016-06-04 16:08:09 :  categories processing
+2016-06-04 16:08:09 : Treatment attribue group
+2016-06-04 16:08:09 : Treatment of attribues
+2016-06-04 16:08:09 : Processing Features
+2016-06-04 16:08:09 : Processing Features Value
+2016-06-04 16:16:58 : *******************************
+2016-06-04 16:16:58 : DO_IMPORT, démarrage du process
+2016-06-04 16:16:58 : import_id_lang=1
+2016-06-04 16:16:58 : moving C:\wamp\tmp\php62A0.tmp vers etranslation_fr_20160604_161658.xml
+2016-06-04 16:16:58 : moving OK
+2016-06-04 16:16:58 : Product Treatment 
+2016-06-04 16:16:58 : cms Page processing
+2016-06-04 16:16:58 : Treatment of 1
+2016-06-04 16:16:59 :  categories processing
+2016-06-04 16:16:59 : Treatment attribue group
+2016-06-04 16:16:59 : Treatment of attribues
+2016-06-04 16:16:59 : Processing Features
+2016-06-04 16:16:59 : Processing Features Value
+2016-06-04 16:18:30 : *******************************
+2016-06-04 16:18:30 : DO_IMPORT, démarrage du process
+2016-06-04 16:18:30 : import_id_lang=1
+2016-06-04 16:18:30 : moving C:\wamp\tmp\phpCA87.tmp vers etranslation_fr_20160604_161830.xml
+2016-06-04 16:18:30 : moving OK
+2016-06-04 16:18:30 : Product Treatment 
+2016-06-04 16:18:30 : cms Page processing
+2016-06-04 16:18:30 : Treatment of 1
+2016-06-04 16:18:31 :  categories processing
+2016-06-04 16:18:31 : Treatment attribue group
+2016-06-04 16:18:31 : Treatment of attribues
+2016-06-04 16:18:31 : Processing Features
+2016-06-04 16:18:31 : Processing Features Value
+2016-06-04 16:19:05 : *******************************
+2016-06-04 16:19:05 : DO_IMPORT, démarrage du process
+2016-06-04 16:19:05 : import_id_lang=1
+2016-06-04 16:19:05 : moving C:\wamp\tmp\php4FFC.tmp vers etranslation_fr_20160604_161905.xml
+2016-06-04 16:19:05 : moving OK
+2016-06-04 16:19:05 : Product Treatment 
+2016-06-04 16:19:05 : cms Page processing
+2016-06-04 16:19:05 : Treatment of 1
+2016-06-04 16:19:05 :  categories processing
+2016-06-04 16:19:05 : Treatment attribue group
+2016-06-04 16:19:05 : Treatment of attribues
+2016-06-04 16:19:05 : Processing Features
+2016-06-04 16:19:05 : Processing Features Value
+2016-06-04 16:22:23 : *******************************
+2016-06-04 16:22:23 : DO_IMPORT, démarrage du process
+2016-06-04 16:22:23 : import_id_lang=1
+2016-06-04 16:22:23 : moving C:\wamp\tmp\php57AB.tmp vers etranslation_fr_20160604_162223.xml
+2016-06-04 16:22:23 : moving OK
+2016-06-04 16:22:23 : Product Treatment 
+2016-06-04 16:22:23 : cms Page processing
+2016-06-04 16:22:23 : Treatment of 1
+2016-06-04 16:22:23 :  categories processing
+2016-06-04 16:22:23 : Treatment attribue group
+2016-06-04 16:22:23 : Treatment of attribues
+2016-06-04 16:22:23 : Processing Features
+2016-06-04 16:22:23 : Processing Features Value
+2016-06-04 16:24:58 : *******************************
+2016-06-04 16:24:58 : DO_IMPORT, démarrage du process
+2016-06-04 16:24:58 : import_id_lang=1
+2016-06-04 16:24:58 : moving C:\wamp\tmp\phpB3EE.tmp vers etranslation_fr_20160604_162458.xml
+2016-06-04 16:24:58 : moving OK
+2016-06-04 16:24:58 : Error loading XML  Opening and ending tag mismatch: etranslation line 2 and Features_Value  Extra content at the end of the document 
+2016-06-04 16:25:42 : *******************************
+2016-06-04 16:25:42 : DO_IMPORT, démarrage du process
+2016-06-04 16:25:42 : import_id_lang=1
+2016-06-04 16:25:42 : moving C:\wamp\tmp\php60C1.tmp vers etranslation_fr_20160604_162542.xml
+2016-06-04 16:25:42 : moving OK
+2016-06-04 16:25:42 : Error loading XML  Opening and ending tag mismatch: etranslation line 2 and Features_Value  Extra content at the end of the document 
+2016-06-04 16:26:26 : *******************************
+2016-06-04 16:26:26 : DO_IMPORT, démarrage du process
+2016-06-04 16:26:26 : import_id_lang=1
+2016-06-04 16:26:26 : moving C:\wamp\tmp\phpDE2.tmp vers etranslation_fr_20160604_162626.xml
+2016-06-04 16:26:26 : moving OK
+2016-06-04 16:26:26 : Product Treatment 
+2016-06-04 16:26:26 : cms Page processing
+2016-06-04 16:26:26 :  categories processing
+2016-06-04 16:26:26 : Treatment attribue group
+2016-06-04 16:26:26 : Treatment of attribues
+2016-06-04 16:26:26 : Processing Features
+2016-06-04 16:26:26 : Processing Features Value
+2016-06-04 16:29:32 : *******************************
+2016-06-04 16:29:32 : DO_IMPORT, démarrage du process
+2016-06-04 16:29:32 : export_id_lang=1
+2016-06-04 16:29:32 : No file sent.
+2016-06-04 16:30:12 : *******************************
+2016-06-04 16:30:12 : DO_IMPORT, démarrage du process
+2016-06-04 16:30:12 : export_id_lang=1
+2016-06-04 16:30:12 : moving C:\wamp\tmp\php8083.tmp vers etranslation_fr_20160604_163012.xml
+2016-06-04 16:30:12 : moving OK
+2016-06-04 16:30:12 : Product Treatment 
+2016-06-04 16:30:12 : Treatment of 1
+2016-06-04 16:30:13 : cms Page processing
+2016-06-04 16:30:13 :  categories processing
+2016-06-04 16:30:13 : Treatment attribue group
+2016-06-04 16:30:13 : Treatment of attribues
+2016-06-04 16:30:13 : Processing Features
+2016-06-04 16:30:13 : Processing Features Value
+2016-06-04 16:30:13 : Carousels processing
+2016-06-04 16:32:33 : *******************************
+2016-06-04 16:32:33 : DO_IMPORT, démarrage du process
+2016-06-04 16:32:33 : export_id_lang=1
+2016-06-04 16:32:33 : moving C:\wamp\tmp\phpA784.tmp vers etranslation_fr_20160604_163233.xml
+2016-06-04 16:32:33 : moving OK
+2016-06-04 16:32:33 : Product Treatment 
+2016-06-04 16:32:33 : cms Page processing
+2016-06-04 16:32:33 : Treatment of 1
+2016-06-04 16:32:34 :  categories processing
+2016-06-04 16:32:34 : Treatment attribue group
+2016-06-04 16:32:34 : Treatment of attribues
+2016-06-04 16:32:34 : Processing Features
+2016-06-04 16:32:34 : Processing Features Value
+2016-06-04 16:32:34 : Carousels processing
+2016-06-04 18:04:09 : *******************************
+2016-06-04 18:04:09 : DO_IMPORT, démarrage du process
+2016-06-04 18:04:09 : export_id_lang=1
+2016-06-04 18:04:09 : moving C:\wamp\tmp\php7DC9.tmp vers etranslation_fr_20160604_180409.xml
+2016-06-04 18:04:09 : moving OK
+2016-06-04 18:04:09 : Product Treatment 
+2016-06-04 18:04:09 : cms Page processing
+2016-06-04 18:04:09 : Treatment of 1
+2016-06-04 18:04:10 :  categories processing
+2016-06-04 18:04:10 : Treatment attribue group
+2016-06-04 18:04:10 : Treatment of attribues
+2016-06-04 18:04:10 : Processing Features
+2016-06-04 18:04:10 : Processing Features Value
+2016-06-04 18:43:48 : *******************************
+2016-06-04 18:43:48 : DO_IMPORT, démarrage du process
+2016-06-04 18:43:48 : export_id_lang=1
+2016-06-04 18:43:48 : moving C:\wamp\tmp\phpC68E.tmp vers etranslation_fr_20160604_184348.xml
+2016-06-04 18:43:48 : moving OK
+2016-06-04 18:43:48 : Product Treatment 
+2016-06-04 18:43:48 : cms Page processing
+2016-06-04 18:43:48 : Treatment of 1
+2016-06-04 18:43:49 :  categories processing
+2016-06-04 18:43:49 : Treatment attribue group
+2016-06-04 18:43:49 : Treatment of attribues
+2016-06-04 18:43:49 : Processing Features
+2016-06-04 18:43:49 : Processing Features Value

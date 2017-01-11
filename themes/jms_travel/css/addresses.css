@@ -1,0 +1,68 @@
+#addresses #center_column p {
+	margin: 0 0 13px;
+}
+.address_add {
+	margin-bottom:20px;
+}
+.address_add .button {
+	background:#43B754;
+	border:1px solid #43B754!important;
+	line-height:50px;
+	height:50px;
+}
+
+.address_update .button .fa {
+	margin-right:5px;
+}
+.address_update .button {
+	margin-right:20px;
+}
+
+.address_title {
+    border-bottom: 1px solid #F4AD02;    
+    font-size: 1em;
+    font-weight: 600;
+    line-height: normal;
+    margin-left:-20px;
+	margin-right:-20px;    
+	background:#F4AD02;
+}
+.address_title h3 {
+	color: #fff;
+    font-size: 1em;
+    padding: 10px 15px;
+    text-transform: uppercase;
+}
+.address_update {
+	border-top: 1px solid #ddd; 
+	padding: 10px 0;
+}
+.address .box{
+    border:1px solid #ddd;    
+    padding: 0px 20px;
+    transition: all 0.2s ease-in 0s;
+} 
+.address li {
+	line-height:30px;
+}
+.address li span i {
+    margin-right: 5px;
+}
+.order_delivery {
+	margin-top:15px;
+	margin-bottom:20px;
+}
+.address.address-box {
+    border: 1px solid #ddd;
+	padding: 0 20px;
+}
+.checkbox #uniform-addressesAreEquals input[type="checkbox"]{
+	margin-left: 0;
+} 
+.delivery_option_radio .radio input[type="radio"], 
+.delivery_option_radio .radio-inline input[type="radio"]{
+	position: inherit;
+}
+p.submit {
+    margin: 20px 0;
+}

@@ -1,0 +1,10 @@
+#maintenance {
+	margin:100px auto 0px auto;
+	width:940px;
+	font:normal 30px Arial, Verdana, sans-serif;
+	color:#333;
+	text-align:center;
+}
+#maintenance #message {	
+	font-size:20px;
+}

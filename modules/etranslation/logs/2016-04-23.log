@@ -1,0 +1,23 @@
+2016-04-23 15:26:00 : *******************************
+2016-04-23 15:26:00 : DO_IMPORT, démarrage du process
+2016-04-23 15:26:00 : export_id_lang=2
+2016-04-23 15:26:00 : moving C:\wamp\tmp\phpF669.tmp vers etranslation_en_20160423_152600.xml
+2016-04-23 15:26:00 : moving OK
+2016-04-23 15:26:00 : Error loading XML  expected '>'  Opening and ending tag mismatch: Attribute_Groups line 3 and etranslation  Premature end of data in tag etranslation line 2 
+2016-04-23 15:26:45 : *******************************
+2016-04-23 15:26:45 : DO_IMPORT, démarrage du process
+2016-04-23 15:26:45 : export_id_lang=2
+2016-04-23 15:26:45 : moving C:\wamp\tmp\phpA54E.tmp vers etranslation_en_20160423_152645.xml
+2016-04-23 15:26:45 : moving OK
+2016-04-23 15:26:45 : Product Treatment 
+2016-04-23 15:26:45 : cms Page processing
+2016-04-23 15:26:45 :  categories processing
+2016-04-23 15:26:45 : Treatment attribue group
+2016-04-23 15:26:45 : Treatment of 1
+2016-04-23 15:26:45 : Treatment of attribues
+2016-04-23 15:26:45 : Traitement de 18
+2016-04-23 15:26:45 : Traitement de 15
+2016-04-23 15:26:45 : Processing Features
+2016-04-23 15:26:45 : Treatment 5
+2016-04-23 15:26:45 : Processing Features Value
+2016-04-23 15:26:45 : Treatment  1

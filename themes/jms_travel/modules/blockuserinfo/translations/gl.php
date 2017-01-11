@@ -1,0 +1,31 @@
+<?php
+
+global $_MODULE;
+$_MODULE = array();
+$_MODULE['<{blockuserinfo}jms_pet>blockuserinfo_a2e9cd952cda8ba167e62b25a496c6c1'] = '';
+$_MODULE['<{blockuserinfo}jms_pet>blockuserinfo_970a31aa19d205f92ccfd1913ca04dc0'] = '';
+$_MODULE['<{blockuserinfo}jms_pet>blockuserinfo_0c3bf3014aafb90201805e45b5e62881'] = '';
+$_MODULE['<{blockuserinfo}jms_pet>blockuserinfo_a85eba4c6c699122b2bb1387ea4813ad'] = 'Cesta';
+$_MODULE['<{blockuserinfo}jms_pet>blockuserinfo_deb10517653c255364175796ace3553f'] = 'Produto';
+$_MODULE['<{blockuserinfo}jms_pet>blockuserinfo_068f80c7519d0528fb08e82137a72131'] = 'Produtos';
+$_MODULE['<{blockuserinfo}jms_pet>blockuserinfo_9e65b51e82f2a9b9f72ebe3e083582bb'] = 'Valoiro';
+$_MODULE['<{blockuserinfo}jms_pet>blockuserinfo_2cbfb6731610056e1d0aaacde07096c1'] = '';
+$_MODULE['<{blockuserinfo}jms_pet>blockuserinfo_a0623b78a5f2cfe415d9dbbd4428ea40'] = 'A súa Conta';
+$_MODULE['<{blockuserinfo}jms_pet>blockuserinfo_83218ac34c1834c26781fe4bde918ee4'] = 'Benvidos';
+$_MODULE['<{blockuserinfo}jms_pet>blockuserinfo_4b877ba8588b19f1b278510bf2b57ebb'] = '';
+$_MODULE['<{blockuserinfo}jms_pet>blockuserinfo_c87aacf5673fada1108c9f809d354311'] = '';
+$_MODULE['<{blockuserinfo}jms_pet>blockuserinfo_d4151a9a3959bdd43690735737034f27'] = '';
+$_MODULE['<{blockuserinfo}jms_pet>blockuserinfo_b6d4223e60986fa4c9af77ee5f7149c5'] = '';
+$_MODULE['<{blockuserinfo}jms_pet>nav_2cbfb6731610056e1d0aaacde07096c1'] = '';
+$_MODULE['<{blockuserinfo}jms_pet>nav_4b877ba8588b19f1b278510bf2b57ebb'] = '';
+$_MODULE['<{blockuserinfo}jms_pet>nav_c87aacf5673fada1108c9f809d354311'] = '';
+$_MODULE['<{blockuserinfo}jms_pet>nav_d4151a9a3959bdd43690735737034f27'] = '';
+$_MODULE['<{blockuserinfo}jms_pet>nav_b6d4223e60986fa4c9af77ee5f7149c5'] = '';
+$_MODULE['<{blockuserinfo}jms_pet>blockuserinfo_08bd40c7543007ad06e4fce31618f6ec'] = 'Account';
+$_MODULE['<{blockuserinfo}jms_pet>blockuserinfo_7eece51cf3938103677db7a5051ef8f5'] = 'Compare';
+$_MODULE['<{blockuserinfo}jms_pet>blockuserinfo_4656814d604eeebfd8ba4e61b14b3c78'] = 'View my Wishlist';
+$_MODULE['<{blockuserinfo}jms_pet>blockuserinfo_641254d77e7a473aa5910574f3f9453c'] = 'WishList';
+$_MODULE['<{blockuserinfo}jms_pet>blockuserinfo_6ff063fbc860a79759a7369ac32cee22'] = 'Checkout';
+$_MODULE['<{blockuserinfo}jms_pet>blockuserinfo_4394c8d8e63c470de62ced3ae85de5ae'] = 'Log out';
+$_MODULE['<{blockuserinfo}jms_pet>blockuserinfo_b145abfd6b2f88971d725cbd94a5879f'] = 'Login to your customer account';
+$_MODULE['<{blockuserinfo}jms_pet>blockuserinfo_99dea78007133396a7b8ed70578ac6ae'] = 'Login';

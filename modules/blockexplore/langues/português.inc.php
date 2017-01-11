@@ -1,0 +1,212 @@
+<?
+
+// *************************************************
+// *                                               *
+// *			Tradução em Português              *
+// *       por Alexandre Cunha amc@ip.pt           *
+// *  eus agradecimentos ao Arlindo aamm@netc.pt   *    
+// *     por me ajudar a encontrar os erros        *
+// *                                               *
+// *************************************************
+
+
+$strExplorateurTitre                     = "PhpMeuExplorador";
+$strExplorateurRafraichir                = "Actualizar";
+$strExplorateurCreerRep                  = "Criar Pasta";
+$strExplorateurTelecharger               = "Enviar ficheiro";
+$strExplorateurRetourSite                = "Retroceder";
+$strExplorateurChemin                    = "Caminho:";
+$strExplorateurNom                       = "Nome";
+$strExplorateurTaille                    = "Tamanho";
+$strExplorateurDate                      = "Data";
+$strExplorateurPermissions               = "Permissões";
+$strExplorateurActions                   = "Acções";
+$strExplorateurEffacer                   = "Apagar";
+$strExplorateurRenomer                   = "Mudar nome";
+$strExplorateurDeplacer                  = "Mover";
+$strExplorateurCopier                    = "Copiar";
+$strExplorateurDownload					 = "Transferir";
+$strExplorateurFichier                   = "O ficheiro ou pasta ";
+$strExplorateurRepertoire                = "A pasta ";
+$strExplorateurMsgSupprimer              = " foi apagada.";
+$strExplorateurMsgRenomer                = " mudou o nome para ";
+$strExplorateurMsgCreerRep               = "  foi criada.";
+$strExplorateurMsgTelecharger            = " foi actualizado ";
+$strExplorateurMsgDeplacer               = "foi movido para ";
+$strExplorateurMsgCopier                 = " foi copiado para ";
+$strExplorateurTelechargerSize           = " cujo tamanho é ";
+$strExplorateurAlertSD                   = "Origem e destino são iguais";
+$strExplorateurAlertDeja                 = " já existe !!";
+$strExplorateurErreur                    = "O sistema operativo retornou este erro";
+$strExplorateurInfo                      = "Informação";
+$strExplorateurOptions                   = "Preferências";
+$strExplorateurPasDeFichier              = "Não há nenhuma lima";
+
+$strTelechargerTitre                     = "Envio de ficheiro";
+$strTelechargerChemin                    = "Enviar o ficheiro para este caminho: ";
+$strTelechargerFichier                   = "Escolha o ficheiro a enviar";
+$strTelecharger                          = "Enviar";
+$strTelechargerAlert                     ="\"O caminho do ficheiro é obrigatório !\""  ;
+
+$strCreerRepTitre                        = "Criar a pasta"; 
+$strCreerRepChemin                       = "Criar uma pasta neste caminho: ";
+$strCreerRepNomRep                       = "Nome para a pasta"; 
+$strCreerRep                             = "Criar";
+$strCreerRepAlertChamps                  = "\"Nome da pasta é obrigatório !!\"";
+
+$strRenomerTitre                         = "Mudar o nome ao ficheiro"; 
+$strRenomerOldFile                       = "Nome actual do ficheiro ou pasta"; 
+$strRenomerNewFile                       = "Nome novo do ficheiro"; 
+$strRenomer                              = "Mudar o nome"; 
+$strRenomerAlert                         = "\"Nome novo do ficheiro é obrigatório !!\"";  
+
+$strCopierTitre                          = "Copiar ficheiro ou directório";
+$strCopierChemin1                        = "Copiar ";
+$strCopierChemin2                        = " para o caminho: "; 
+$strCopier                               = "Copiar ";
+
+$strDeplacerTitre                        = "Mover ficheiro ou directório";
+$strDeplacerChemin1                      = "Mover ";
+$strDeplacerChemin2                      = " para o caminho: ";
+$strDeplacer                             = "Mover";
+
+$strConfirmerMessagePasVide              = " não está vazio."; 
+$strConfirmerMessageSure                 = "Deseja apagá-lo ?"; 
+$strConfirmerMessageFichier              = "Pretende apagar o ficheiro "; 
+$strConfirmerMessageRep                  = "Pretende apagar a directoria ";
+
+$strAnnuler                              = "Cancelar";
+$strConfirmer                            = "Feito";
+$strAlertChar                            = "\"caracteres incorrectos !! \\nNão use os seguintes caracteres: \\n\\\ / : * ? \\'\\' < > | \"";
+$strValider                              = "Terminado"; 
+                                 
+$strAproposTitre						 = "Sobre";
+$strAproposAuteur						 = "Programa desenvolvido por ";
+$srtAproposTraduction					 = "Tradução";
+$srtAproposSite1						 = "Para mais informações ";
+$srtAproposSite2						 = " visite ";
+$srtAproposInterface1					 = "Interface gráfico realizado por ";
+$srtAproposInterface2					 = ", para saber mais sobre o estilo, visite ";
+$srtAproposMerci1						 = "Agradecimentos a ";
+$srtAproposMerci2						 = " pela sua ajuda";
+$srtAproposEcrire						 = "Escrever-me";
+$srtAproposFichier						 = "Ficheiro";
+$srtAproposFichiers						 = "Ficheiros";
+$srtAproposRepertoire					 = "Directório";
+$srtAproposRepertoires					 = "Directórios";
+
+$strOptionTitre							 = "Preferências";
+$strOptionLangue						 = "Lingua";
+$strOptionDiversOptions					 = "Várias Opções";
+$strOptionVoirHeure						 = "Mostrar hora e data";
+$strOptionVoirLienRetour				 = "Mostrar ligação ";
+$strOptionCheminRetour					 = "Indicar o caminho da ligação ";  
+$strOptionCheminRetourDefaut			 = "(por omissão \"/\")";
+$strOptionEditionActive					 = "Permitir edição de ficheiro";
+$strOptionEditionResolution				 = "tamanho da janela de edição do ficheiro";
+$strOptionConfirmerEfface				 = "Confirmar apagar directoria e ficheiro";
+$strOptionImageFond						 = "Mostrar imagem de fundo";
+$strOptionVotreImage					 = "Indicar o caminho da imagem de fundo";
+$strOptionCouleurFond					 = "Indicar a cor de fundo";
+$strOptionCouleurChiffre				 = "Indicar a cor da hora";
+$strOptionCheminRelatif					 = "Indicar o caminho relativo entre a aplicação e a raiz do \"site\""; 
+$strOptionCheminRelatifDefaut			 = "(por omissão \"./..\")";
+
+$srtLangueFrancais						 = "Francês";
+$srtLangueAnglais						 = "Inglês";
+$srtLanguePortugais						 = "Português";
+$srtLangueNeerlandais					 = "Holandês";
+$srtLangueEspagnol						 = "Espanhol";
+$srtLangueAllemand						 = "Alem&atilde;o";
+
+
+// to translate
+
+$strTelechargerInfo                      = "Your provider web server limit upload file size to ";
+$strTelechargerNbFichier 				 = "Upload file number : ";
+$strTelechargerAlertFichier              = "\"File path is obligatory !!\"";
+$strTelechargerAlertFichiers             = "\"All File paths is obligatory !!\"";
+
+$strEditerRedimensionner                 = "Resize text area";
+$strEditerNbCols		                 = "Columns number : ";
+$strEditerNbRows		                 = "Rows number : ";
+$strEditerMessage		                 = "The file is saved !";
+$strEditerEtatFichier					 = "File state "; 
+$strEditerNonModifie					 = "Not modified";
+$strEditerModifie						 = "Modified";
+$strEditerNonEnregistre					 = "\"The file isn't saved !\\nAre you sure to exit ?\"";
+
+$strEditer								 = "Edit";
+$strTester								 = "Test";
+$strEnregistrer                          = "Save";
+$strOctet								 = "byte";
+$strOctetAbrevation						 = "b";
+
+$srtLangueItalien						 = "Italian";
+$srtLangueJaponais                       = "Japanese";
+
+// ---------------------------- Fonctions de gestion des dates -------------------------- //
+
+function GetNomJour($no)
+{
+        $nomjour[0] = "domingo";
+        $nomjour[1] = "segunda feira";
+        $nomjour[2] = "terça feira";
+        $nomjour[3] = "quarta feira";
+        $nomjour[4] = "quinta feira";
+        $nomjour[5] = "sexta feira";
+        $nomjour[6] = "sábado";
+
+        return $nomjour[$no];
+}
+
+function GetNomJour3L($no)
+{
+        $nomjour[0] = "dom";
+        $nomjour[1] = "seg";
+        $nomjour[2] = "ter";
+        $nomjour[3] = "qua";
+        $nomjour[4] = "qui";
+        $nomjour[5] = "sex";
+        $nomjour[6] = "sáb";
+
+        return $nomjour[$no];
+}
+
+function GetNomMois($no)
+{
+        $nommois[1]  = "janeiro";
+        $nommois[2]  = "fevereiro";
+        $nommois[3]  = "março";
+        $nommois[4]  = "abril";
+        $nommois[5]  = "maio";
+        $nommois[6]  = "junho";
+        $nommois[7]  = "julho";
+        $nommois[8]  = "agosto";
+        $nommois[9]  = "setembro";
+        $nommois[10] = "outubro";
+        $nommois[11] = "novembro";
+        $nommois[12] = "dezembro";
+
+        return $nommois[$no];
+}
+
+ function GetNomMois3L($no)
+{
+        $nommois[1]  = "jan";
+        $nommois[2]  = "fev";
+        $nommois[3]  = "mar";
+        $nommois[4]  = "abr";
+        $nommois[5]  = "mai";
+        $nommois[6]  = "jun";
+        $nommois[7]  = "jul";
+        $nommois[8]  = "ago";
+        $nommois[9]  = "set";
+        $nommois[10] = "out";
+        $nommois[11] = "nov";
+        $nommois[12] = "dez";
+
+        return $nommois[$no];
+}
+
+?>

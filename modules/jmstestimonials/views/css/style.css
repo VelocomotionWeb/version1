@@ -1,0 +1,80 @@
+h2 {
+    font-family: "roboto slab",serif;
+    font-size: 2em;
+    margin: 0;
+    padding: 0 0 0.75em;
+}
+
+.item-info {
+    margin-bottom: 10px;
+	padding:10px;
+}
+.itemsContent {
+    float: left;
+    width: 50%;
+}
+.item-info img {
+    width: 100%;
+}
+
+.panel-heading-action {
+    float: right;
+}
+.btn-check {
+    border: medium none !important;
+    box-shadow: none !important;
+}
+.main_img img {
+    width: 100%;
+}
+.home_deli {
+    text-align: center;
+}
+
+.footer_deli {
+    display: inline-block;
+    border: 1px solid;
+    border-radius: 12px;
+    padding: 10px;
+}
+.check {
+    display: inline-block;
+    padding: 0 9px;
+}
+
+.product_img {
+   
+   
+    width: 193px;
+}
+.product_img img {
+    border-radius: 50%;
+}
+.proverbs .col-lg-6
+{
+	text-align:-moz-center;
+}
+.proverbs{
+	color:#fff;
+}
+.proverbs {
+    background: url("../img/botbg.png") repeat scroll 0 0 rgba(0, 0, 0, 0)
+}
+.proverbs .owl-next {
+    right: 0;
+     border: medium none !important;
+    color: #fff !important;
+    font-size: 40px;
+   
+    top: 90px;
+}
+.proverbs .owl-prev {
+    border: medium none !important;
+    color: #fff !important;
+    font-size: 40px;
+    left: 0;
+    top: 90px;
+}
+
+
+

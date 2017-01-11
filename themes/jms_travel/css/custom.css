@@ -1,0 +1,137 @@
+/* ADD CUSTOM CSS STYLE */
+
+.noMargin {
+    margin: 0;
+}
+.noPadding {
+    padding: 0;
+}
+/* @media (max-width:767px){.hidden-xs{display:none!important}} */
+
+
+
+.header-2 .header-bar {
+    height: 85px;
+}
+
+
+.header-2 .navbar-logo, .header-2 .topnav .jms-megamenu .nav > li > a {
+	line-height: 25px !important;
+}
+
+
+
+.jms-megamenu .nav > li {
+    margin-top: 10px !important;
+}
+
+
+
+.jms-megamenu .nav > [data-id="203"], .jms-megamenu .nav > [data-id="238"] {
+    border: 1px solid #294294;
+    border-radius: 5px;
+    padding: 0 5px !important;
+	-webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+
+
+.jms-megamenu .nav > [data-id="203"]:hover, .jms-megamenu .nav > [data-id="238"]:hover {
+    border: 1px solid #84BB25;
+}
+
+
+
+
+.header-2 .topnav .jms-megamenu .nav > li.open > .dropdown-menu, .header-2 .topnav .jms-megamenu .nav > li:hover > .dropdown-menu {
+	top: 50px !important;
+}
+
+
+
+
+.btn-default {
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    transition: all 0.4s;
+    background-color: #fff;
+    color: #555;
+    border: 1px solid #555;
+    border-radius: 5px;
+}
+
+.btn-default:hover{
+    color: #FFF;
+    background-color: #84BB25;
+    border: 1px solid #84BB25;
+}
+
+.table-bordered, .table-bordered > thead > tr > th,
+.table-bordered > thead > tr > td,
+.table-bordered > tbody > tr > th,
+.table-bordered > tbody > tr > td,
+.table-bordered > tfoot > tr > th,
+.table-bordered > tfoot > tr > td,
+#order-detail-content #cart_summary tr {
+    background-color: #FFF;
+    border: 1px solid #84BB25;
+}
+
+#cart_summary tfoot td.total_price_container span, #cart_summary tfoot td#total_price_container {
+    font-size: 1em;
+    color: #000;
+}
+
+#opc_new_account {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.tableCustom {
+    width: 100%;
+}
+.tableCustom th {
+    padding: 10px;
+    text-align: center;
+}
+.tableCustom th h3 {
+    padding: 0;
+    font-size: 1.2em;
+    font-weight: 600;
+    color: #84BB25;
+}
+.tableCustom td {
+    width: 50%;
+    padding: 20px;
+}
+
+.opc-main-block h1, .shopping-cart h1, #cart_title, .step-num, .page-heading {
+    margin: 30px 0;
+    color: #84BB25;
+    font-size: 1.5em;
+    font-weight: 600;
+    text-align: center;
+}
+
+ .shopping-cart h1 {
+    margin: 0 0 30px 0;
+}
+sub, sup {
+    font-size: 1.3em;
+}
+
+#cart_summary .cart_product img {
+    width: 100px !important;
+}
+
+.cart_delete a {
+    cursor: pointer;
+    font-size: 1.2em;
+}

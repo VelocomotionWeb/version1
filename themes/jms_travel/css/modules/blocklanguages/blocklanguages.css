@@ -1,0 +1,42 @@
+.icon-flag {
+    background: url("../../../img/icons-flags.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    display: inline;
+    font-size: 9px !important;
+    padding: 0 7px;
+    position: relative;
+    top: 0px;
+	
+}
+.icon-flag-fr {
+    background-position:0px -44px;
+}
+.icon-flag-de {
+    background-position:0px -22px;
+}
+.icon-flag-da {
+    background-position: 0 -66px;
+}
+.icon-flag-el {
+    background-position: 0 -88px;
+}
+.icon-flag-es {
+    background-position: 0 -110px;
+}
+.icon-flag-it {
+    background-position: 0 -132px;
+}
+.icon-flag-nl {
+    background-position: 0 -154px;
+}
+.icon-flag-pt {
+    background-position: 0 -198px;
+}
+.icon-flag-ru {
+    background-position: 0 -220px;
+}
+.icon-flag-pl {
+    background-position: 0 -176px;
+}
+.icon-flag-sv {
+	background-position: 0 -242px;
+}

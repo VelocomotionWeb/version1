@@ -1,0 +1,1 @@
+{include 'views/templates/front/footer.tpl'}

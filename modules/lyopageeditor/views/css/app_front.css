@@ -1,0 +1,244 @@
+@CHARSET "UTF-8";
+div[style*="background-image"]{
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center top;
+}
+
+
+
+
+.owl-controls .owl-prev,
+.owl-controls .owl-next {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  height: 30px;
+  margin: auto !important;
+    line-height: 0 !important;
+}
+
+.owl-controls .owl-prev {
+  left: 0;
+}
+
+.owl-controls .owl-next {
+  right: 0;
+}
+.owl-carousel .owl-item {
+    padding: 10px;
+}
+.widget{
+	 margin-top:10px;
+	 margin-bottom:10px;
+}
+.widget[data-type="parallax"],.widget[data-widget-type="Colonne"]{
+	 margin-top:0px;
+	 margin-bottom:0px;
+}
+
+.parallax,.paralax{
+
+    min-height:150px;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-position:center top;
+    background-size:cover;
+    padding:40px 20px 40px 20px;
+}
+
+    .media-body {
+         vertical-align: top;
+    }
+    .media-left,
+    .media-right {
+        display: table-cell;
+        vertical-align: top;
+    }
+/* au dessus de 992px*/
+@media (min-width: 992px) { 
+    .parallax,.paralax{
+        padding:80px 80px 80px 80px;
+    }
+    .media-body {
+      display: table-cell;
+      width: 10000px;
+
+    }
+}
+
+/* au dessous de */
+@media (max-width: 992px) { 
+    .media-body{
+        width: auto;
+        display:block;
+    }
+}
+.widget .row {
+    margin-left: 0px;
+   
+}
+.panel{
+    width:100%;
+}
+.fill{
+
+    height:100%;
+    min-height:100%;
+
+}
+.widget{
+    
+}
+
+
+
+.border-radius {
+    border-radius: 5px;
+}
+.frame {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.frame > img {
+    width: 100%;
+}
+.frame-padding {
+    background: #fff none repeat scroll 0 0;
+    padding: 4px;
+}
+.frame-border {
+    border-radius: 5px;
+}
+.frame-shadow {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.frame-shadow-lifted::before, .frame-shadow-lifted::after {
+    bottom: 15px;
+    box-shadow: 0 15px 10px rgba(0, 0, 0, 0.5);
+    content: "";
+    display: block;
+    height: 20px;
+    left: 10px;
+    position: absolute;
+    transform: rotate(-3deg);
+    width: 50%;
+    z-index: -1;
+}
+.frame-shadow-lifted::after {
+    left: auto;
+    right: 10px;
+    transform: rotate(3deg);
+}
+.frame-shadow-perspective::before {
+    bottom: 5px;
+    box-shadow: -80px 0 8px rgba(0, 0, 0, 0.4);
+    content: "";
+    height: 35%;
+    left: 80px;
+    max-height: 50px;
+    max-width: 200px;
+    position: absolute;
+    transform: skew(50deg);
+    transform-origin: 0 100% 0;
+    width: 50%;
+    z-index: -1;
+}
+.frame-shadow-curved::before {
+    border-radius: 10px / 100px;
+    bottom: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 10px;
+    z-index: -1;
+}
+.frame-shadow-raised {
+    box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+.rotated-box {
+    transform: rotate(-3deg);
+}
+.rotated-right-box {
+    transform: rotate(3deg);
+}
+
+.noborder{
+    border:none;
+}
+
+.litleColonne{
+    
+    margin:auto;
+    min-height:50px;
+    /*overflow: hidden;*/
+}
+.owl-wrapper {
+    margin: 0 auto;
+}
+.colonne{
+    
+    min-height:150px;
+    /*overflow: hidden;*/
+}
+.center-block {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.media {
+  margin-top: 15px;
+}
+.media:first-child {
+  margin-top: 0;
+}
+.media,
+.media-body {
+  overflow: hidden;
+  zoom: 1;
+}
+
+.media-object {
+  display: block;
+}
+.media-object.img-thumbnail {
+  max-width: none;
+}
+.media-right,
+.media > .pull-right {
+  padding-left: 10px;
+}
+.media-left,
+.media > .pull-left {
+  padding-right: 10px;
+}
+
+.media-middle {
+  vertical-align: middle;
+}
+.media-bottom {
+  vertical-align: bottom;
+}
+.media-heading {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+.media-list {
+  padding-left: 0;
+  list-style: none;
+}
+.media-left img,.media-right img {
+   max-width: none !important;
+}
+.widget.container{
+    width:inherit;
+}
+.widget .row .container{
+    width:100%;
+}
+
+.fullHeight{
+	overflow:auto;
+}

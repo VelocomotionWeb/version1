@@ -1,0 +1,1 @@
+Marketplace Product Combination V2.0 is enhanced version of Marketplace Product Combination V1.6 module.

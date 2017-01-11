@@ -1,0 +1,15 @@
+.slider-products .slider-product-title {
+    display: inline-block;
+    margin-bottom: 35px;
+    text-align: left;
+    width: 100%;
+}
+.slider-products .slider-product-title h3.title .icon-title::before{
+	left: 0;
+}
+.slider-products .product_description_short {
+    margin-top: 15px;
+}
+.slider-products {
+    margin-top: 80px;	display:none;
+}

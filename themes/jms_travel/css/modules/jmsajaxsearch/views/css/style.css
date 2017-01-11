@@ -1,0 +1,48 @@
+.search-box {
+	display: none;
+    position: absolute;
+    width: 100%;
+	width: 60px;
+	right: 0px;
+}
+#jms_ajax_search.open .search-box {
+    display: inline-block;
+    right: 61px;
+    left: auto;
+	width: 250px;
+}
+#ajax_search.form-control {
+    background: #ffffff none repeat scroll 0 0;
+    font-size: 16px;
+    height: 60px;
+}
+#ajax_search.form-control::-moz-placeholder {
+    color: #666666;
+    opacity: 1;
+}
+.left-img {
+    display: inline-block;
+    float: left;
+    margin-right: 20px;
+    position: relative;
+    width: 100px;
+}
+.left-img a {
+    display: inline-block;
+    width: 100%;
+}
+.left-img img {
+    width: 100px;
+}
+.results .item {
+    display: inline-block;
+    margin: 10px 0;
+    width: 100%;
+}
+.results .item:first-child {
+    margin-top: 0;
+}
+.right-info .price {
+    display: block;
+    margin-top: 10px;
+}

@@ -1,0 +1,97 @@
+#map_canvas {
+	height: 400px;
+	/*width: 384px;*/
+}
+.blockTitle h2 {font-size: 1em !important;}
+
+#group-seller {
+	height: 104px;
+	overflow: hidden;
+}
+.wk_tabs {
+	margin: 10px 0 0 0;
+}
+.wk_store {
+	-webkit-transition-duration:0.3s;
+	transition-duration:0.3s;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	width: 100%;
+	height: 80px;
+	padding: 10px;
+	cursor: pointer;
+	text-align: center;
+	border: 1px solid #294294;
+	color: #294294;
+}
+.wk_store:hover {
+	background-color:#84BB25;
+	border: 3px solid #84bb25;
+	color: #FFF;
+}
+.active {
+	background: rgba(132, 187, 37, 0.20);
+	position: relative;
+	z-index: 999;
+	border: 3px solid #84bb25;
+	border-bottom: 3px solid #e6f1d3;
+	height: 94px;
+	border-radius: 10px 10px 0 0;
+}
+.active:hover {
+	background: #e6f1d3;
+	border-bottom: 3px solid #e6f1d3;
+	color: #294294;
+}
+.wk_store_details {
+	line-height: 1.4;
+	font-weight: bold;
+	font-size: 1.05em;
+}
+
+.wk_store_details .store_city_zip_code, .wk_store_details .aff_distance {
+	font-size: 0.9em;
+}
+
+input#quantity_wanted {
+	width: 42px !important;
+	height: 25px !important;
+}
+
+.dashboard_content {
+	background: rgba(132, 187, 37, 0.20);
+	margin-top: -3px;
+	border-radius: 10px;
+	border: 3px solid #84bb25;
+}
+
+@media (max-width: 768px) {
+
+	#group-seller {
+		height: 217px;
+		overflow: hidden;
+	}
+	.wk_store:hover {
+		border: 1px solid #84bb25;
+	}
+	.active {
+		border: 1px solid #84bb25;
+		border-bottom: 1px solid #84bb25;
+		height: 80px;
+		border-radius: 10px;
+	}
+	.active:hover {
+		background: #e6f1d3;
+		border: 1px solid #84bb25;
+		color: #294294;
+	}
+	.wk_store_details {
+		font-size: 0.85em;
+	}
+
+	.dashboard_content {
+		margin-top: 0;
+		border: 1px solid #84bb25;
+	}
+}

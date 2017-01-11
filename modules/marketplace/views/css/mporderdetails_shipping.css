@@ -1,0 +1,82 @@
+.wk_shipping_head{
+    float: left;
+    width: 100%;
+}
+#wk_shipping_form{
+    float: left;
+    width: 100%;
+    padding: 10px;
+}
+
+#submit_delivery_block{
+    float: left;
+    width: 100%;
+}
+
+.div_title
+{
+ float:left;
+ font-weight:bold;
+ width: 40%
+}
+.address_details
+{
+ float:left;
+ width:100%;
+}
+.div_detail
+{
+ float:left;
+ margin-left:10px;
+}
+#shipping_address_title,#shipping_address,#shipping_desc_title,#shipping_desc,#shipping_date_block
+{
+ width:100%;
+ float:left;
+}
+#submit_block
+{
+ width:100%;
+ float:left;
+ margin-top: 10px;
+}
+#shipping_desc{
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.close_btn_block
+{
+ width:97%;
+ float:left;
+ padding-top:5px;
+ padding-right:5px;
+ padding-left:5px;
+}
+#wk_address_details,#desc,#shipping_date,#received
+{
+ float:left;
+ width: 100%;
+}
+.box-account .wk_divider_line{
+    border-bottom: 1px solid #D9DDE3;
+    float: left;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 100%;
+}
+#shipping_date_block,.wk_received{
+    float: left;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+#submit_delivery_block{
+    float: left;
+    width: 100%;
+    margin-top: 15px;
+}
+#submit_shipping_number, #cancel_shipping_number_link
+{
+    margin-top: 5px;
+}

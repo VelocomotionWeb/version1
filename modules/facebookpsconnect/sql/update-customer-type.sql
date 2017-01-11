@@ -1,0 +1,2 @@
+ALTER TABLE `PREFIX_connect` MODIFY `CNT_CUST_TYPE` ENUM('none','facebook', 'twitter', 'google', 'paypal', 'amazon') DEFAULT 'none' AFTER `CNT_SHOP_ID`;
+ALTER TABLE `PREFIX_collect` MODIFY `COL_SOCIAL_TYPE` ENUM('facebook', 'twitter', 'google', 'paypal', 'amazon') DEFAULT 'facebook' AFTER `COL_SHOP_ID`;

@@ -1,0 +1,33 @@
+#search_block_home {
+    margin: 20px 0;
+}
+
+#search_block_home input {
+    width: 100%;
+    transition: 0.4s;
+    font-weight: bold;
+    height: 46px;
+    border-radius: 5px;
+    text-transform: initial;
+}
+
+#search_block_home #city {
+    padding: 0 5px 0 5px;
+}
+
+#search_block_home .startDate {
+    padding: 0 5px 0 5px;
+}
+
+#search_block_home .endDate {
+    padding: 0 5px 0 5px;
+}
+
+#search_block_home .sendButton {
+    padding: 0 25px 0 5px;
+    font-size: 1.5em;
+}
+
+#search_block_home .sendButton #search_loc {
+    font-size: 0.8em;
+}

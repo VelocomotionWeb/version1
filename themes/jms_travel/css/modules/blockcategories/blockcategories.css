@@ -1,0 +1,58 @@
+.block .title_block {
+    color: #383838;
+    font-size: 1.36em;
+    font-weight: 700;
+	padding-bottom: 20px;
+    text-transform: uppercase;
+}
+.expander-list {
+}
+.expander-list > li {
+	border-bottom: 1px solid #e5e4e4;
+    display: inline-block;
+    font-family: "Montserrat";
+    font-size: 1.07em;
+    line-height: 35px;
+    width: 100%;
+}
+.expander {
+	cursor: pointer;
+    float: right;
+    font-size: 16px;
+}
+.expander-list > li:last-child {
+    border-bottom: 0;
+}
+.expander-list ul {
+    border-top: 1px solid #e5e4e4;
+}
+.expander-list ul li {
+    border-bottom: 1px solid #e5e4e4;
+    padding-left: 20px;
+    position: relative;
+    text-transform: capitalize;
+}
+.expander-list ul li:last-child {
+    border-bottom: 0 none;
+}
+.expander-list ul li::before {
+}
+.expander-list ul li a {
+    color: #5f5f5f;
+    font-family: "Raleway";
+}
+.expander-list > li a.selected {
+    color: #F4AD02;
+    font-weight: 400 !important;
+}
+.expander-list > li a {
+	color: #383838;
+    font-weight: 400 !important;
+}
+.expander-list ul li a:hover,
+.expander-list > li a:hover {
+    color: #F4AD02;
+}
+.expander-list ul li:hover::before {
+    color: #F4AD02;
+}

@@ -1,0 +1,43 @@
+.wk_product_collection .wk_collection_data {
+	background: #FFF;
+	border: 1px solid #777;
+	border-radius: 10px;
+	margin: 10px 0;
+	text-align: center;
+	overflow: hidden;
+}
+.wk_collection_data .wk_collecion_details {
+	color: #767676;
+	font-weight: bold;
+	margin: 2px;
+	padding: 2px 4px 0;
+	text-align: center;
+	width: 98%;
+	font-family: 'Open Sans';
+	font-size: 1.05em;
+}
+.name {
+	height: 40px;
+}
+.wk_collection_data .wk_collecion_details a {
+	color: #294294;
+}
+
+.moreInf {
+	margin: 20px 0 !important;
+	font-size: 0.8em !important;
+}
+.btn_loc {
+	background: #84bb25;
+	border: 1px solid #84bb25;
+	margin: 10px 0;
+	border-radius: 5px;
+	color: #ffffff !important;
+	font-size: 1em;
+	font-weight: bold;
+}
+.btn_loc:hover {
+	background: #FFF;
+	border: 1px solid #84bb25;
+	color: #294294 !important;
+}

@@ -1,0 +1,32 @@
+
+[{shop_url}] 
+
+Hi {seller_firstname} {seller_lastname},
+
+New order created on your shop {shop_name}! 
+
+Name: {customer_name}
+
+Email: {customer_email}
+
+PRODUCT
+
+UNIT PRICE
+
+QUANTITY
+
+TOTAL PRICE
+
+{product_html} 
+   
+
+Delivery address 		 
+
+{ship_address_name}
+{ship_address}
+{city}, {state} {zipcode}
+{country}
+Phone: {phone}
+
+You can review order details in my order by log in to your
+seller account by clicking [{my_account_url}] "My account" on our shop.

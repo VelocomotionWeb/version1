@@ -1,0 +1,29 @@
+/* Block tags */
+div.tags_block .block_content {    
+	display: inline-block;
+	margin: 0 -4px;
+}
+div.tags_block p {
+	text-align: justify;
+	font-size: 0.9em
+}
+.content-aside .tags_block p a {
+    border: 1px solid #b5b5b5;
+    color: #292929;
+    float: left;
+    font-size: 1.14em;
+    font-weight: 400 !important;
+    height: 35px;
+    line-height: 33px;
+    margin: 5px;
+    padding: 0 25px;
+}
+div.tags_block p a:hover {
+	background: #df0024 none repeat scroll 0 0;
+    border-color: #df0024;
+    color: #ffffff;
+    text-decoration: none;
+}
+a.tag_level3 {  }
+a.tag_level2 { }
+a.tag_level1 { font-size: 1em; color: #888 }

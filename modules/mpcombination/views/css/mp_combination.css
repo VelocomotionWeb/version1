@@ -1,0 +1,216 @@
+@media only screen and (max-width: 768px) {
+    #wk_product_combination{
+        overflow: scroll;
+    }
+}
+
+.wk-error-msg
+{
+    display: none;
+}
+#left_column {
+    display: none !important;
+}
+#center_column {
+    width: 100% !important;
+}
+#right_column {
+    display: none !important;
+}
+.full {
+	width:100%;
+}
+.half {
+	width:45%;
+}
+.left {
+	float:left;
+}
+.right {
+	float:right;
+}
+.combination_div{
+    float: left;
+    width: 100%;
+}
+.combination_list {
+    float: left;
+    width: 100%;
+}
+.header_link {
+    width: 70%;
+}
+.back_link {
+    width: 28%;
+}
+
+/* #generate_combination {
+    font-size: 14px;
+} */
+
+.combinationcontent_info {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.listheader {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-bottom: 1px solid;
+    border-image: none;
+    border-right: 1px solid;
+    border-top: 1px solid;
+    color: #F69415;
+    font-size: 13px;
+    font-weight: bold;
+    height: 30px;
+    padding-top: 12px;
+    text-align: center;
+    width: 8%;
+}
+.home_link {
+    margin-right: 10px;
+}
+
+#back_link_product {
+    color: #F69415;
+    font-size: 14px;
+}
+.attribute_generator {
+	margin-top:10px;
+}
+.attribute_row {
+	margin-bottom:10px;
+}
+.quater {
+	width:18%;
+	padding:1%;
+}
+.table tr th {
+    background: -moz-linear-gradient(center top , #F9F9F9, #ECECEC) repeat-x scroll left top #ECECEC;
+    color: #333333;
+    font-size: 13px;
+    padding: 4px 6px;
+    text-align: left;
+    text-shadow: 0 1px 0 #FFFFFF;
+}
+
+.table tr td {
+    border-bottom: 1px solid #CCCCCC;
+    color: #333333;
+    font-size: 12px;
+    padding: 4px 4px 4px 6px;
+}
+.listcontent {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-bottom: 1px solid #CCCCCC;
+    border-image: none;
+    border-right: 1px solid #CCCCCC;
+    border-top: medium none;
+    color: #333333;
+    font-size: 13px;
+    height: 62px;
+    padding-top: 12px;
+    text-align: center;
+    width: 8%
+}
+.planlistcontent:hover {
+    background-color: #B5B5B5;
+}
+.delete_attribute,.default_attribute,.edit_attribute {
+	padding-right:8px;
+}
+.basciattr_update {
+	float: left;
+    width: 100%;
+    margin-bottom: 20px;
+    display:none;
+}
+.lable {
+    color: #585A69;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 0.2em 0.5em 0 0;
+    text-align: right;
+    text-shadow: 0 1px 0 #FFFFFF;
+    width: 25%;
+}
+.input_label {
+    margin-left: 1%;
+    width: 73%;
+}
+
+
+.input_label input[type="text"] {
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    color: #555555;
+    display: inline-block;
+    font-size: 14px;
+    height: 20px;
+    line-height: 20px;
+    padding: 4px 6px;
+    transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+    vertical-align: top;
+}
+
+.input_label select {
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    color: #555555;
+    display: inline-block;
+    font-size: 14px;
+    padding: 4px 6px;
+    transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+    vertical-align: top;
+}
+
+p.preference_description {
+    clear: both;
+    color: #7F7F7F;
+    font-family: Georgia,Arial,'sans-serif';
+    font-size: 11px;
+    font-style: italic;
+    text-align: left;
+    width:100%;
+}
+#id_image_attr{
+    float: left;
+    width: 100%;
+}
+ul#id_image_attr li{
+    float: left;
+    list-style-type: none;
+    margin-right: 3%;
+}
+.wk_attr_selector_form{
+    float: left;
+    width: 100%;
+}
+.wk_attr_selector{
+    float: left;
+}
+.wk_attr_selector select#attribute_group{
+    float: left;
+    width: 100%;
+    height: 500px;
+    margin-bottom: 10px;
+}
+
+.wk_attr_selector .wk_attr_gp_btn{
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+#ui-datepicker-div
+{
+    background-color: gainsboro;
+}

@@ -1,0 +1,54 @@
+<?php
+
+global $_MODULE;
+$_MODULE = array();
+$_MODULE['<{mpcombination}default>mpcombination_f6925325f9a52fff050e159aa339c1a3'] = 'Produit de marché combinatoire.';
+$_MODULE['<{mpcombination}default>mpcombination_f1fbafe2dc178f946966a6991110615d'] = 'Le vendeur peut télécharger combinaison de produit.';
+$_MODULE['<{mpcombination}default>mpcombination_74b9f5cb399c95c867f5e098198c9bcc'] = 'Module du marché ne s\'installe pas.';
+$_MODULE['<{mpcombination}default>generatecombination_8cf04a9734132302f96da8e113e80ce5'] = 'maison';
+$_MODULE['<{mpcombination}default>generatecombination_631ca3b5e273d13d414e103555f1d29e'] = 'Attribut Générateur';
+$_MODULE['<{mpcombination}default>generatecombination_854ee576475a63775d79cbfd6e4b13b6'] = 'Description du produit';
+$_MODULE['<{mpcombination}default>mpattributeedit_694e8d1f2ee056f98ee488bdc4982d73'] = 'quantité';
+$_MODULE['<{mpcombination}default>mpattributeedit_63d5049791d9d79d86e9a108b0a999ca'] = 'référence';
+$_MODULE['<{mpcombination}default>mpattributeedit_cb637f308218c133d7ee93264aa88563'] = 'Caractères spéciaux autorisés';
+$_MODULE['<{mpcombination}default>mpattributeedit_52eb5928a34db3e3da7ba52b0644273b'] = 'EAN13';
+$_MODULE['<{mpcombination}default>mpattributeedit_fbd99ad01b92dbafc686772a39e3d065'] = 'UPC';
+$_MODULE['<{mpcombination}default>mpattributeedit_c804723ccdde3d7a46933b208c6f928d'] = 'prix de gros';
+$_MODULE['<{mpcombination}default>mpattributeedit_622d67c7a2ea6386a4480e02b12fadd8'] = 'Impact sur le prix';
+$_MODULE['<{mpcombination}default>mpattributeedit_6adf97f83acf6453d4a6a4b1070f3754'] = 'aucun';
+$_MODULE['<{mpcombination}default>mpattributeedit_aac247ca22789872bad95dc8f6c45d37'] = 'augmenter';
+$_MODULE['<{mpcombination}default>mpattributeedit_9e834f13e35e4edf64863ab414a6217a'] = 'réduction';
+$_MODULE['<{mpcombination}default>mpattributeedit_3c1a34587e45bd9e9ae2efd9a6ecbb92'] = 'Incidence sur le poids';
+$_MODULE['<{mpcombination}default>mpattributeedit_563417c21627ddc1520a3950e56b56dc'] = 'Impact sur le prix de l\'unité';
+$_MODULE['<{mpcombination}default>mpattributeedit_1b72aed8e84b91d73896efd48cf1a4e0'] = 'La quantité minimum';
+$_MODULE['<{mpcombination}default>mpattributeedit_b287d004082f0d743a49dc7360d4fbbe'] = 'La quantité minimum pour acheter ce produit (mis à 1 pour désactiver cette fonctionnalité)';
+$_MODULE['<{mpcombination}default>mpattributeedit_de8304421c13baaf6b13b9ed84d73eb7'] = 'date disponible';
+$_MODULE['<{mpcombination}default>mpattributeedit_399ee9523f1b63a4bc63da2d6e4559a6'] = 'La date disponible lorsque ce produit est en rupture de stock.';
+
+$_MODULE['<{mpcombination}default>mpattributeadd_694e8d1f2ee056f98ee488bdc4982d73'] = 'quantité';
+$_MODULE['<{mpcombination}default>mpattributeadd_63d5049791d9d79d86e9a108b0a999ca'] = 'référence';
+$_MODULE['<{mpcombination}default>mpattributeadd_cb637f308218c133d7ee93264aa88563'] = 'Caractères spéciaux autorisés';
+$_MODULE['<{mpcombination}default>mpattributeadd_52eb5928a34db3e3da7ba52b0644273b'] = 'EAN13';
+$_MODULE['<{mpcombination}default>mpattributeadd_fbd99ad01b92dbafc686772a39e3d065'] = 'UPC';
+$_MODULE['<{mpcombination}default>mpattributeadd_c804723ccdde3d7a46933b208c6f928d'] = 'prix de gros';
+$_MODULE['<{mpcombination}default>mpattributeadd_622d67c7a2ea6386a4480e02b12fadd8'] = 'Impact sur le prix';
+$_MODULE['<{mpcombination}default>mpattributeadd_6adf97f83acf6453d4a6a4b1070f3754'] = 'aucun';
+$_MODULE['<{mpcombination}default>mpattributeadd_aac247ca22789872bad95dc8f6c45d37'] = 'augmenter';
+$_MODULE['<{mpcombination}default>mpattributeadd_9e834f13e35e4edf64863ab414a6217a'] = 'réduction';
+$_MODULE['<{mpcombination}default>mpattributeadd_3c1a34587e45bd9e9ae2efd9a6ecbb92'] = 'Incidence sur le poids';
+$_MODULE['<{mpcombination}default>mpattributeadd_563417c21627ddc1520a3950e56b56dc'] = 'Impact sur le prix de l\'unité';
+$_MODULE['<{mpcombination}default>mpattributeadd_1b72aed8e84b91d73896efd48cf1a4e0'] = 'La quantité minimum';
+$_MODULE['<{mpcombination}default>mpattributeadd_b287d004082f0d743a49dc7360d4fbbe'] = 'La quantité minimum pour acheter ce produit (mis à 1 pour désactiver cette fonctionnalité)';
+$_MODULE['<{mpcombination}default>mpattributeadd_de8304421c13baaf6b13b9ed84d73eb7'] = 'date disponible';
+$_MODULE['<{mpcombination}default>mpattributeadd_399ee9523f1b63a4bc63da2d6e4559a6'] = 'La date disponible lorsque ce produit est en rupture de stock.';
+
+$_MODULE['<{mpcombination}default>mp_combination_b11ab6582de5c5df25f69247d6172042'] = 'Combinaison de produit';
+$_MODULE['<{mpcombination}default>mp_combination_d670be4bf59e3e18cf2da9e54257459f'] = 'générer combinaison';
+$_MODULE['<{mpcombination}default>mp_combination_287234a1ff35a314b5b6bc4e5828e745'] = 'attributs';
+$_MODULE['<{mpcombination}default>mp_combination_21f59b54f62b5b8b4bc0f63f0f617fc1'] = 'impact';
+$_MODULE['<{mpcombination}default>mp_combination_8c489d0946f66d17d73f26366a4bf620'] = 'poids';
+$_MODULE['<{mpcombination}default>mp_combination_63d5049791d9d79d86e9a108b0a999ca'] = 'référence';
+$_MODULE['<{mpcombination}default>mp_combination_52eb5928a34db3e3da7ba52b0644273b'] = 'EAN13';
+$_MODULE['<{mpcombination}default>mp_combination_fbd99ad01b92dbafc686772a39e3d065'] = 'UPC';
+$_MODULE['<{mpcombination}default>mp_combination_06df33001c1d7187fdd81ea1f5b277aa'] = 'actes';
+$_MODULE['<{mpcombination}default>mp_combination_a1a3559bf12b3db0eeeea844af1313b1'] = 'Aucune combinaison disponible pour ce produit';

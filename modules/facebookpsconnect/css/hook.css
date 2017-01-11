@@ -1,0 +1,115 @@
+.ao_fpsc_clr_20,.ao_fpsc_clr_hr, .ao_fpsc_clr_10{ clear: both; height:0; width: 100%; margin: 0; padding: 0;}
+    .ao_fpsc_clr_10{ height: 10px;}
+    .ao_fpsc_clr_20{ height: 20px;}
+    .ao_fpsc_clr_hr{ border-bottom:1px solid #CCC;}
+
+.badgeBottom, .badgeTop{
+	display: inline-block; width: 100%; vertical-align: middle; padding:10px 2%; text-align: left; color: #333;
+	background: #f3f3f3; z-index: 2147483647; text-align: center; margin-bottom: 20px;
+	-moz-box-shadow:0px 0px 3px #BBB;  -webkit-box-shadow:0px 0px 3px #BBB; -o-box-shadow:0px 0px 3px #BBB; box-shadow:0px 0px 3px #BBB;
+}
+
+.badgeBottom{ margin-bottom: 0; margin-top: 20px;}
+
+#ao_facebookpsconnect p{ padding:0; margin:0;}
+#ao_facebookpsconnect a{ }
+
+
+.ao_bt_fpsc,.ao_bt_fpsc:hover, .ao_bt_fpsc:active, .ao_bt_fpsc:visited{ color: #FFF;}
+.ao_bt_fpsc{
+    text-shadow: 0px 1px 1px #333;
+    font-size: 12px;
+    line-height: 30px; margin:10px 8px 0; display:inline-block; height:30px; padding:0 20px 0px 5px; background:url(../img/bt_sprite2.png) 0 0 repeat-x;
+    -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px;
+    -moz-box-shadow: 1px 2px 2px #AAA;  -webkit-box-shadow: 1px 2px 2px #AAA; -o-box-shadow: 1px 2px 2px #AAA; box-shadow: 1px 2px 2px #AAA;
+}
+
+.ao_bt_fpsc:active{
+    -moz-box-shadow: 1px 1px 1px #BBB;  -webkit-box-shadow: 1px 1px 1px #BBB; -o-box-shadow: 1px 1px 1px #BBB; box-shadow: 1px 1px 1px #BBB;
+}
+    .ao_bt_fpsc span{ font-weight: bold; height:30px; display:bock; float: left; }
+        .ao_bt_fpsc span.picto{ width:30px; background:url(../img/bt_sprite2.png) 0 0 no-repeat; }
+        .ao_bt_fpsc span.title{ padding-left:10px; }
+
+    .ao_bt_fpsc.ao_bt_fpsc_facebook{ border: 1px solid #3f6387; background-position: 0 -5; }
+    .ao_bt_fpsc.ao_bt_fpsc_twitter{  border: 1px solid #008CB3; background-position: 0 -85px; }
+    .ao_bt_fpsc.ao_bt_fpsc_google{   border: 1px solid #a51012; background-position: 0 -45px; }
+    .ao_bt_fpsc.ao_bt_fpsc_paypal{   border: 1px solid #0082C2; background-position: 0 -125px; }
+
+    .ao_bt_fpsc.ao_bt_fpsc_facebook:hover{ background-position: 0 0; }
+    .ao_bt_fpsc.ao_bt_fpsc_twitter:hover{  background-position: 0 -80px; }
+    .ao_bt_fpsc.ao_bt_fpsc_google:hover{   background-position: 0 -40px; }
+    .ao_bt_fpsc.ao_bt_fpsc_paypal:hover{   background-position: 0 -120px; }
+
+    .ao_bt_fpsc.ao_bt_fpsc_facebook span.picto{ background-position: 0 -156px; border-right:1px solid #3a5f81; }
+    .ao_bt_fpsc.ao_bt_fpsc_twitter span.picto{  background-position: 0 -235px; border-right:1px solid #33bcf1; }
+    .ao_bt_fpsc.ao_bt_fpsc_google span.picto{   background-position:0 -195px; border-right:1px solid #d14c4c; }
+    .ao_bt_fpsc.ao_bt_fpsc_paypal span.picto{   background-position:0 -275px; border-right:1px solid #0096D0; }
+
+    .ao_bt_fpsc.ao_bt_fpsc_facebook span.title{ border-left:1px solid #5d85a9; }
+    .ao_bt_fpsc.ao_bt_fpsc_twitter span.title{  border-left:1px solid #008CB3; }
+    .ao_bt_fpsc.ao_bt_fpsc_google span.title{   border-left:1px solid #a40000; }
+    .ao_bt_fpsc.ao_bt_fpsc_paypal span.title{   border-left:1px solid #0082C2; }
+
+
+.fbpsc_block_user_account{ background:#EEE; color: #666666; text-shadow: 0px 1px 0px #FFF; }
+    .fbpsc_block_user_account .content{ border:1px solid #CCC; padding:10px;}
+
+.fbpsc_block_user_account .ao_input{ border: 1px solid #CCC; padding: 0 5px; color: #999999; height: 20px;}
+.fbpsc_mini_button{ clear: both; padding-top: 10px;}
+    .fbpsc_mini_button .ao_bt_fpsc{ padding: 0; height: 20px; width: 20px; overflow: hidden; }
+        .fbpsc_mini_button .ao_bt_fpsc{background:url(../img/bt_sprite_mini.png) 0 0 repeat-x; }
+        .fbpsc_mini_button .ao_bt_fpsc span.picto{ height:20px; width:20px; background:url(../img/bt_sprite_mini.png) 0 0 no-repeat; }
+        .fbpsc_mini_button .ao_bt_fpsc .title{ display: none;}
+            .fbpsc_mini_button .ao_bt_fpsc span{ border: none !important;}
+
+#header_user .fbpsc_mini_button{ margin:0; padding:0;}
+	#header_user .fbpsc_mini_button .ao_bt_fpsc{ margin:0 8px;}
+
+.fbpsc_mini_button .ao_bt_fpsc.ao_bt_fpsc_facebook span.picto{ background-position: 2px -97px; }
+.fbpsc_mini_button .ao_bt_fpsc.ao_bt_fpsc_twitter span.picto{  background-position: 3px -143px; }
+.fbpsc_mini_button .ao_bt_fpsc.ao_bt_fpsc_google span.picto{   background-position: 3px -119px; }
+.fbpsc_mini_button .ao_bt_fpsc.ao_bt_fpsc_paypal span.picto{   background-position: 3px -167px; }
+
+.fbpsc_mini_button .ao_bt_fpsc.ao_bt_fpsc_facebook{ background-position: 0 -5; }
+.fbpsc_mini_button .ao_bt_fpsc.ao_bt_fpsc_twitter{  background-position: 0 -48px; }
+.fbpsc_mini_button .ao_bt_fpsc.ao_bt_fpsc_google{   background-position: 0 -24px; }
+.fbpsc_mini_button .ao_bt_fpsc.ao_bt_fpsc_paypal{   background-position: 0 -71px; }
+
+.fbpsc_mini_button a:first-child{ margin-left: 0;}
+.fbpsc_mini_button a:last-child{ margin-right: 0;}
+
+#header_user .fbpsc_mini_button{text-align:right; line-height: 25px;}
+
+#fbpsc_block_user_account .block .title_block{ margin: -1px;}
+
+#authenticationAlign{
+	text-align:center;
+}
+#connectorText{
+	background:url(../img/icon-info-fb.png) 10px 10px no-repeat;
+	border:5px solid #385b94; border-right:none; border-left:none; color:#385b94; padding:10px 10px 10px 85px !important; min-height:60px; line-height:20px;
+}
+#authenticationAlign a{ display:inline-block;margin-bottom: 20px;}
+
+#fpcFancyboxContent h3{ border:none !important; background:#333; color:#FFF; padding:10px 20px !important; line-height:20px; }
+	
+	
+.fbpsc_block_user_account .content{ background:#EEE;}
+.fbpsc_block_user_account fieldset{ border:none;}
+.fbpsc_block_user_account p{ display:block; padding-bottom:20px;}
+.fbpsc_block_user_account .ao_input,.fbpsc_block_user_account .button{ margin:0;}
+
+#socialMessage button {
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+#socialMessage label {display: inline; font-weight: bold; font-size: 12px;}
+.alert.error { padding: 10px 15px; color:#ff0000; border: 1px solid #EC9B9B; background-color: #FAE2E3; margin-top: 10px; }
+.alert.valide { padding:10px 15px;color:#3a811d;border:1px solid #b8c8b3;background-color:#dff0d8;margin-top:10px}
+.alert-info
+{
+	border-bottom: none;
+	border-top: none;
+	border-right: none;
+}

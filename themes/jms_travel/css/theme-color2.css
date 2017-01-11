@@ -1,0 +1,378 @@
+a:hover,
+a:focus {
+	color:#01B0FF;
+}
+.btn-default, .button_large {
+    background: #01B0FF;
+    border: 1px solid #01B0FF;
+}
+.btn-default:hover, 
+.btn-default:focus, 
+.btn-default:active, 
+.btn-default.active, 
+.btn-mega:hover, 
+.btn-mega:focus, 
+.btn-mega:active {
+	border-color: #01B0FF;
+	color: #01B0FF;
+}
+select:focus, 
+textarea:focus, 
+input[type="text"]:focus, 
+input[type="password"]:focus,
+input[type="datetime"]:focus, 
+input[type="datetime-local"]:focus, 
+input[type="date"]:focus, 
+input[type="month"]:focus, 
+input[type="time"]:focus, 
+input[type="week"]:focus, 
+input[type="number"]:focus, 
+input[type="email"]:focus, 
+input[type="url"]:focus, 
+input[type="search"]:focus, 
+input[type="tel"]:focus, 
+input[type="color"]:focus, 
+.inputbox:focus, select:hover, 
+textarea:hover, 
+input[type="text"]:hover, 
+input[type="password"]:hover, 
+input[type="datetime"]:hover, 
+input[type="datetime-local"]:hover, 
+input[type="date"]:hover, 
+input[type="month"]:hover, 
+input[type="time"]:hover, 
+input[type="week"]:hover, 
+input[type="number"]:hover, 
+input[type="email"]:hover, 
+input[type="url"]:hover, 
+input[type="search"]:hover, 
+input[type="tel"]:hover, 
+input[type="color"]:hover, 
+.inputbox:hover, 
+select:active, 
+textarea:active, 
+input[type="text"]:active, 
+input[type="password"]:active, 
+input[type="datetime"]:active, 
+input[type="datetime-local"]:active, 
+input[type="date"]:active, 
+input[type="month"]:active, 
+input[type="time"]:active, 
+input[type="week"]:active, 
+input[type="number"]:active, 
+input[type="email"]:active, 
+input[type="url"]:active, 
+input[type="search"]:active, 
+input[type="tel"]:active, 
+input[type="color"]:active, 
+.inputbox:active{
+	border-color: #01B0FF;
+}
+.btn-default.disabled, 
+.btn-default.disabled.active, 
+.btn-default.disabled:active, 
+.btn-default.disabled:focus, 
+.btn-default.disabled:hover, 
+.btn-default[disabled], 
+.btn-default.active[disabled], 
+.btn-default[disabled]:active, 
+.btn-default[disabled]:focus, 
+.btn-default[disabled]:hover, 
+fieldset[disabled] .btn-default, 
+fieldset[disabled] .btn-default.active, 
+fieldset[disabled] .btn-default:active,
+fieldset[disabled] .btn-default:focus, 
+fieldset[disabled] .btn-default:hover{
+	background: #01b0ff none repeat scroll 0 0;
+}
+.dropcap.color {
+    color: #01b0ff;
+}
+.color_mark {
+    background-color: #01b0ff;
+}
+.styled-list li::before {
+    color: #01b0ff;
+}
+#my-account .myaccount_lnk_list li a:hover {
+    background: #01b0ff none repeat scroll 0 0;
+    border-color: #01b0ff;
+}
+.pagenotfound > #error-code {
+    color: #01b0ff;
+}
+.topnav .jms-megamenu .nav > li.active > a {
+    color: #01b0ff;
+}
+.topnav .jms-megamenu .nav > li > a::after {
+    background: #01b0ff none repeat scroll 0 0;
+}
+.topnav .jms-megamenu .nav > li > a:hover, 
+.topnav .jms-megamenu .nav > li.open > a, 
+.topnav .jms-megamenu .nav > li:hover > a{
+	color: #01b0ff;
+}
+.topnav .dropdown-inner.no-mega .mega-nav > li a:hover,
+.topnav .mega-nav > li > ul > li > ul > li.open a, 
+.topnav .mega-nav > li > ul > li.open > a, 
+.topnav .mega-nav > li.open > a, 
+.topnav .mega-nav > li > ul > li > ul > li a:hover, 
+.topnav .mega-nav > li > ul > li > a:hover, 
+.topnav .mega-nav > li > a:hover {
+    color: #01b0ff;
+}
+.quick-link li > a:hover {
+    color: #01b0ff !important;
+}
+.jms-megamenu .mega-nav li > a::before {
+    color: #01B0FF;
+}
+.jms-megamenu .mega-nav > li.group > a::after {
+    background: #01B0FF;
+}
+.box.ajax_cart_quantity {
+    background: #01B0FF
+}
+#button_order_cart {
+    border: 1px solid #01b0ff;
+}
+#button_order_cart:hover {
+    background: #01b0ff;
+}
+.header-bar .menu-topbar a:hover, 
+.header-bar .menu-topbar li.selected a {
+    color: #01B0FF;
+}
+.header-right #user-dropdown-box.dropdown-menu li a:hover{
+	color: #01B0FF;
+}
+.options-section .tabs-menu li a {
+    background: #01b0ff none repeat scroll 0 0;
+}
+.home-1 #jms_search_btn.btn-xs.search-toggle {
+    background: #01b0ff none repeat scroll 0 0;
+}
+.location-title .fa {
+    color: #01b0ff;
+}
+.slider-product-title h3.title .icon-title::before {
+    background: #01b0ff none repeat scroll 0 0;
+}
+.product-preview .product-btn {
+    border: 1px solid #01B0FF;
+}
+.product-preview .product-btn:hover {
+    background: #01b0ff none repeat scroll 0 0;
+}
+.product-preview .preview-button .product-btn {
+    color: #01b0ff;
+}
+.preview-button .product-btn:hover {
+    border-color: #01b0ff;
+	background: #01b0ff none repeat scroll 0 0;
+	color: #191919;
+}
+.wrapper-label.wrapper-label-new {
+    background: #01b0ff none repeat scroll 0 0;
+}
+.service-box em{
+	color:#01b0ff; 
+}
+.testimonials_img {
+    border: 4px solid #01b0ff;
+}
+.anchor-text {
+    color: #01b0ff;
+}
+.owl-theme .owl-controls .owl-nav div.owl-next:hover, 
+.owl-theme .owl-controls .owl-nav div.owl-prev:hover {
+    background: #01B0FF;
+    border-color: #01B0FF;
+}
+.icon.star-full::after {
+    color: #01b0ff;
+}
+.post-category > a {
+    color: #01b0ff;
+}
+.post-meta li.post-created {
+    background: #01b0ff none repeat scroll 0 0;
+}
+.contact_address li i {
+    color: #01b0ff;
+}
+.wraper-newsletter .input-group-addon {
+    border-color: #01B0FF !important;
+    color: #01B0FF
+}
+.wraper-newsletter .input-group-addon:hover {
+    background: #01b0ff none repeat scroll 0 0;
+}
+
+.footer-block .block-content .find-us .divider:hover {
+    background: #01b0ff none repeat scroll 0 0;
+}
+.footer-block .title_block::before {
+    background: #01B0FF;
+}
+.footer-block .block-content li:hover a, 
+
+.footer-block .block-content li:hover a, 
+.footer-block .block-content li:hover::before {
+    color: #01B0FF;
+}
+.footer-block .block-content li:hover::before {
+    color: #01B0FF;
+}
+footer div.tags_block p a:hover {
+    background: #01B0FF;
+    border-color: #01B0FF;
+}
+.back-to-top:hover {
+    background: #01B0FF;
+}
+.view-modes > a.active, .view-modes > a:hover {
+    background: #01b0ff none repeat scroll 0 0;
+    border-color: #01b0ff;
+}
+.pagination > .active > a, 
+.pagination > .active > a:focus, 
+.pagination > .active > a:hover, 
+.pagination > .active > span, 
+.pagination > .active > span:focus, 
+.pagination > .active > span:hover {
+    background: #01b0ff none repeat scroll 0 0;
+    border-color: #01b0ff;
+}
+.pagination > li > a:focus, 
+.pagination > li > a:hover, 
+.pagination > li > span:focus, 
+.pagination > li > span:hover {
+    background: #01b0ff none repeat scroll 0 0;
+    border-color: #01b0ff;
+}
+.products-list-in-row .feature_content.feature_days::before,
+.products-list-in-row .feature_content.feature_personals::before {
+    color: #01b0ff;
+}
+.expander-list > li a.selected {
+    color: #01b0ff;
+}
+.expander-list ul li a:hover, .expander-list > li a:hover {
+    color: #01b0ff;
+}
+.ui-slider-horizontal .ui-slider-handle {
+    background: #01b0ff none repeat scroll 0 0 !important;
+}
+#layered_block_left .nomargin a span {
+    color: #01b0ff;
+}
+.other-info > p::before {
+    color: #01b0ff;
+}
+.features-value .feature_content.feature_days::before,
+.features-value .feature_content.feature_personals::before {
+    color: #01b0ff;
+}
+.check-options span {
+    color: #01b0ff;
+}
+.price-area .price {
+    color: #01b0ff;
+}
+.tabs-info .nav-tabs > li.active > a, 
+.tabs-info .nav-tabs > li:hover > a, 
+.tabs-info .nav-tabs > li:focus > a, 
+.tabs-info .nav-tabs > li:active > a {
+    color: #01b0ff;
+}
+.right-column .block .title_block::before {
+    background: #01b0ff none repeat scroll 0 0;
+}
+#faq_block_right .block_content a:hover {
+    color: #01b0ff;
+}
+#cart_summary tfoot td#total_price_container,
+#cart_summary tfoot td.total_price_container span {
+    color: #01b0ff;
+}
+.address_title {
+    background: #01b0ff none repeat scroll 0 0;
+    border-bottom: 1px solid #01b0ff;
+
+}
+ul.step li.step_current {
+		background: #01b0ff none repeat scroll 0 0;
+		border-color: #01b0ff;
+}
+@media (min-width: 992px) {
+      ul.step li.step_current span {
+		background: #01b0ff none repeat scroll 0 0;
+		border-color: #01b0ff;
+      }
+}
+.header-2 .header-bar {
+    background: #01B0FF;
+}
+.header-2 .top-bar {
+    background: #02a5ee;
+}
+.wrapper-options em {
+    background: #01B0FF none repeat scroll 0 0;
+}
+.wrapper-options em::after {
+    box-shadow: 3px 3px #01B0FF;
+}
+.wrapper-location {
+    background: #01b0ff none repeat scroll 0 0;
+}
+.wrapper-location > a {
+    background: #42c4ff none repeat scroll 0 0;
+}
+.wrapper-location > a:hover{
+	color: #fff;
+}
+.info:hover {
+    color: #01b0ff;
+}
+.home-2 .testimonials-new-carousel .owl-dot.active span {
+    background: #01b0ff none repeat scroll 0 0;
+}
+.blogsection .post-meta li.post-created {
+    background: #01b0ff none repeat scroll 0 0;
+}
+.blogsection .blog-readmore:hover {
+    background: #01b0ff none repeat scroll 0 0;
+    border-color: #01b0ff;
+}
+.brand-section .slider-product-title h3.title .icon-title::before {
+    background: #01B0FF;
+}
+.number-visits {
+    color: #01b0ff;
+}
+.icon-building {
+    background: rgba(0, 0, 0, 0) url("../img/color2/built.png") no-repeat scroll 0 0;
+}
+.icon-airplane {
+    background: rgba(0, 0, 0, 0) url("../img/color2/airplane.png") no-repeat scroll 0 0;
+}
+.footer-2 .footer-block .title_block::before {
+    background: #01b0ff none repeat scroll 0 0;
+}
+.footer-2 .footer-block .block-content li:hover a, .footer-2 .footer-block .block-content li:hover::before {
+    color: #01b0ff;
+}
+.footer-2 .wraper-newsletter .input-group-addon {
+    background: #01b0ff none repeat scroll 0 0;
+    border-color: #01b0ff !important;
+}
+.footer-2 .footer-block .block-content .find-us .divider:hover a {
+    color: #01b0ff;
+}
+.options-section .tab-content .btn.btn-default.btn-checknow{
+	border-color: #01b0ff;
+}
+.options-section .tab-content .btn.btn-default.btn-checknow:hover {
+    background: #01b0ff none repeat scroll 0 0;
+}

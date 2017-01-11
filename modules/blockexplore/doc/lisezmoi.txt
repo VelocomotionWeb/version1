@@ -1,0 +1,201 @@
+   
+ PhpMonExplorateur 1.2.1 (Classic)
+ 
+
+Sommaire
+
+
+	1- Présentation de PhpMonExplorateur 1.2.1 
+	2- Evolution par rapport à PhpMonExplorateur 1.2 
+	3- Script PHP et compatibilités 
+	4- Installer PhpMonExplorateur 1.2.1 
+	5- utilisez PhpMonExplorateur en mode Multi-Utilisateurs 
+	6- Verrouiller PhpMonExplorateur 1.2.1 
+	7- FAQ : questions fréquemment demandées 
+	8- Historique des versions 
+
+
+1- Présentation de PhpMonExplorateur 1.2.1
+
+PhpMonExplorateur 1.2.1 est une application en PHP qui vous permet de gérer facilement et à distance la mise à jour de votre site sans utiliser un logiciel FTP. Comme un gestionnaire de fichiers, cette application vous permet :
+
+	de déplacer, copier, renomer ou effacer les fichiers et répertoires, 
+	de créer des répertoires, 
+	de télécharger un ou plusieur fichiers à la fois sur votre site, 
+	de récupérer les fichiers sur votre ordinateur, 
+	de visualiser le contenu, editer et tester des fichiers, 
+	de personaliser l'aspect de l'application (langue, couleurs ...). 
+
+
+2- Evolution par rapport à PhpMonExplorateur 1.2
+
+Pour cette nouvelle version de PhpMonExplorateur quelques nouvelles fonctionnalités ont été apportées:
+
+	la possibilité de télécharger plusieurs fichiers à la fois 
+	la possibilité d'éditer et de tester les fichiers 
+	l'amélioration de la fonction de récupérationdes fichier sur votre ordinateur 
+	l'amélioration de divers petites fonctions (messages, taille des fichiers ...) 
+	de nouvelle traduction (allemand, italien et japonais)
+
+
+3- Script PHP et compatibilités
+
+
+PhpMonExplorateur 1.2.1 est un scripte PHP, par conséquent, il nécessite pour son utilisation que le serveur web de votre hébergeur accepte l'exécution de scripts PHP. Ce script existe avec des extensions .php3 ou .php.
+Coté serveur, PhpMonExplorateur 1.2.1 est compatible php3 et php4. Il fonctionne avec un serveur Apache sous les environnements Windows 9x/NT/2000 et Linux, par contre il ne fonctionnement pas sous Mac.
+Coté client, il n'a pas été testé avec tous les navigateurs actuels : néanmois il fonctionne avec Internet Explorer 5 et supérieur, et Netscape 4.5 et 4.7.
+Si vous rencontrez des problèmes de compatibilité, n'hésitez pas à me contacter.
+
+4- Installer PhpMonExplorateur 1.2.1
+
+Il y a deux manières d'installer PhpMonExplorateur 1.2.1 : 
+
+Avec la procédure d'installation 
+Sans la procédure d'installation 
+Avec la procédure d'installation
+
+- Téléchargez PhpMonExplorateur 1.2.1 et dézippez-le,
+- Téléchargez les fichiers phpmonexplorateur.elg et installfrancais.php3 à la racine de votre site,
+- Executez le script installfrancais.php3 et suivez les instructions,
+
+Le script va desarchiver l'application et il s'occupe de tout : il extrait les fichiers, crée les répertoires nécessaires et écrase l'éventuelle version précédante de PhpMonExplorateur qui serait installée dans le même répertoire.
+
+Pour télécharger les deux fichiers, il vous est possible de vous passer de connexion FTP. Pour cela, vous allez vous connecter à votre compte FTP via votre Browser. Changez l'URL de votre Browser pour y inscrire :
+
+
+ftp://login@ftpserveur
+
+Où login est votre login d'accès au serveur FTP et ftpserveur est le nom de votre serveur FTP. Ensuite, pour télécharger les deux fichiers, il suffit de les sélectionner dans un gestionnaire de fichiers (comme l'explorateur de Windows) et de les faire glisser sur votre browser.
+Attention, un mauvais fonctionnement de la procédure d'installation à été détecté pour certaines configurations de PHP. Voici une configuration pour laquelle tous fonctionnent correctement. Dans le fichier php3.ini (ou php.ini) assurez-vous de la valeur des variables suivantes :
+
+
+magic_quotes_gpc = On
+magic_quotes_runtime = Off
+magic_quotes_sybase = Off  
+
+Si vous n'êtes pas le responsable de la configuration de votre serveur PHP et que vous avez des problèmes lors de l'installation de l'application, utilisez plutôt la version sans procédure d'installation. Par contre cette version nécessite une connexion FTP. 
+
+Sans la procédure d'installation
+
+- Téléchargez PhpMonExplorateur 1.2.1 et dézippez-le,
+- Téléchargez l'application sur votre site grâce à une connexion FTP
+
+5- utilisez PhpMonExplorateur en mode Multi-Utilisateurs
+
+Pour le mode Multi-Utilisateurs, il faut utiliser PhpMonExplorateur Multi-Utilisateurs. En effet, ce mode n'est plus géré par cette version et fait l'objet d'une application différente de celle-ci et entièrement dédiée à ce mode.
+
+6- Verrouiller PhpMonExplorateur 1.2.1
+
+
+Si vous ne limitez pas l'accès de PhpMonExplorateur 1.2.1, cette application devient un véritable trou de sécurité. En effet, toute personne qui prend connaissance de la présence de cette application sur votre site peut modifier le contenu ou même en effacer la totalité de votre site.
+Afin d'éviter cela, il faut utiliser la limitation d'accès aux fichiers de votre serveur web. Pour exemple, je vous présente la mise en place d'une limitation d'accès sur un serveur Web Apache.
+
+Vous devez créer les trois fichiers suivant (au format texte) : 
+
+un fichier .htaccess dans le répertoire de l'application pour limiter l'accès à ce répertoire, 
+un fichier password dans le répertoire secret, 
+un fichier .htaccess dans le même répertoire que le fichier password pour interdire l'accès à ce fichier. 
+Contenu du fichier .htaccess se trouvant dans le répertoire de l'application : 
+
+AuthUserFile /secret/password
+AuthName "Acces restreint"
+AuthType Basic
+<Limit GET POST>
+   require valid-user
+</Limit>
+ 
+
+Où /secret/password est le chemin du fichier contenant le fichier de logins et de mots de passe. Le fichier password est composé de la liste des utilisateurs et de leur mot de passe crypté selon le cryptage de Unix.
+
+
+login1:password_crypté1
+login2:password_crypté2
+login3:password_crypté3
+ 
+
+Contenu du fichier .htaccess se trouvant dans le même répertoire que le fichier password
+
+
+deny from all  
+
+Pour plus d'informations consultez les directives d'Apache.
+
+Pour ceux qui hébergent leur site chez Free, une modification d'apache a été apportée afin d'écrire directement les mots de passe en clairs dans le fichier password. Pour plus de renseignements visitez la section Limitation d'accès de votre espace web chez Free.
+
+7- FAQ : Questions Fréquemment demandées
+
+Comment changer la taille maximale des fichiers à télécharger sur votre site ?
+
+La taille des fichiers à télécharger n'est pas fixée par l'application mais par le fichier de configuration de PHP (php.ini ou php3.ini). Dans ce fichier se trouve une variable qui définie cette limite :
+
+	upload_max_filesize = 2097152
+
+Par défaut cette variable vaut 2097152 octets ce qui représente approximativement 2 Mo. 
+
+
+Comment interdire l'accès à l'application sauf pour moi ?
+
+Pour interdire l'accès à l'application sauf pour vous ou d'autre personne, il faut mettre en place la limitation d'accès de votre serveur web. Pour cela, il faut suivre les instructions de la section Verrouiller PhpMonExplorateur de la page d'aide. 
+	
+8- Historique des versions
+
+PhpMonExplorateur 1.0 - 9 Mai 2000 
+
+Création de l'application. 
+
+PhpMonExplorateur 1.1.0 - 1 Juin 2000 
+
+Création de la procédure d'installation. 
+
+PhpMonExplorateur 1.1.1 - 15 Juin 2000 
+
+Amélioration de la procédure d'installation. 
+
+PhpMonExplorateur 1.1.2 - 28 Juin 2000 
+
+Amélioration de la navigation dans l'application, 
+Ajout d'une traduction portugaise. 
+
+PhpMonExplorateur 1.1.3 - 24 Août 2000 
+
+Possibilité d'utiliser PhpMonExplorateur en mode multi-utilisateurs, 
+Possible de modifier l'emplacement du répertoire explorateur, 
+Amélioration de la fonction de copie. 
+
+PhpMonExplorateur 1.1.4 - 4 Septembre 2000 
+
+Possibilité de modifier l'aspect de l'application (couleur de fond, du titre, du texte, des liens ...), 
+Possibilité de cacher des options comme l'heure ou le lien "retour au site", 
+l'entête et le bas de page de l'application sont désormais dans des fichiers à part. 
+
+PhpMonExplorateur 1.1.5 - 9 Octobre 2000 
+
+L'application est incluse entièrement dans un même répertoire, 
+Personalisation dynamique de l'application, 
+Possibilité de visualiser le contenu des fichiers, 
+Ajout des traductions espagnole et néerlandaise. 
+
+PhpMonExplorateur 1.2 - 5 Décembre 2000 
+
+le design de l'application a été totalement revu, 
+ajout d'une feuille de styles, 
+plus de fichier explorateur.php3, il a été remplacé par le fichier index.php3, 
+possibilité de copier et déplacer les répertoires, 
+possibilité de télécharger les fichiers sur votre ordinateur, 
+Tri inversé du nom, date et taille des fichiers, 
+amélioration de la visualisation des fichiers, 
+amélioration de la personalisation de l'application. 
+
+PhpMonExplorateur 1.2.1 - 2 Mars 2001 
+
+la possibilité de télécharger plusieurs fichiers à la fois 
+la possibilité d'éditer et de tester les fichiers 
+l'amélioration de la fonction de récupérationdes fichier sur votre ordinateur 
+l'amélioration de divers petites fonctions (messages, taille des fichiers ...) 
+de nouvelle traduction (allemand, italien et japonais) 
+
+
+Auteur       : Erlé LE GAC
+Site         : http://elegac.free.fr
+email        : elegac@free.fr
+Mailing list : phpmonexplorateur-request@ml.free.fr?subject=subscribe

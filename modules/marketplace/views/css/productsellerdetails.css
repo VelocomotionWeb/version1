@@ -1,0 +1,152 @@
+.partnerdetails {
+	float: left;
+	width: 100%;
+    background-color:#F6F6F6;
+    border-bottom: 3px solid #D5D3D4;
+    font-family: open sans;
+    padding:10px;
+}
+.sellerinfo{
+	float: left;
+	width: 70%;
+	padding: 10px;
+}
+
+.sellerlink{
+	float: left;
+	width: 100%;
+	padding: 10px;
+}
+.sellerlink ul li{
+	margin-bottom: 10px;
+}
+.sellerlink ul li a{
+	line-height: 25px;
+}
+.sellerlink ul li a:hover {
+    color: #000000;
+    text-decoration: none;
+}
+.wk-mail-icon{
+    background-image: url(../img/icon/icon-mail.png);
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+.wk-person-icon{
+    background-image: url(../img/icon/reveiw-user-icon.png);
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+.wk-phone-icon{
+    background-image: url(../img/icon/icon-phone.png);
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+.wk-shop-icon{
+    background-image: url(../img/icon/shop-icon-2.png);
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+.wk-share-icon{
+    background-image: url(../img/icon/icon-share.png);
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+.sellerinfo .wk-facebook-button
+{
+    float: left;
+    width: 32px;
+    height: 32px;
+    background-image: url(../img/icon/share-facebook.png);
+    background-position: center top;
+    display: block;
+    margin-right: 10px;
+}
+.sellerinfo .wk-facebook-button:hover
+{
+    width: 32px;
+    height: 32px;
+    background-image: url(../img/icon/share-facebook.png);
+    background-position: center bottom;
+    display: block;
+}
+
+.sellerinfo .wk-twitter-button
+{
+    float: left;
+    width: 32px;
+    height: 32px;
+    background-image: url(../img/icon/share-twitter.png);
+    background-position: center top;
+    display: block;
+}
+.sellerinfo .wk-twitter-button:hover
+{
+    width: 32px;
+    height: 32px;
+    background-image: url(../img/icon/share-twitter.png);
+    background-position: center bottom;
+    display: block;
+}
+#wk_question_form{
+	float: left;
+	width: 100%;
+}
+#wk_question_form sup{
+	color: red;
+}
+.wk_ques_form_footer{
+	float: left;
+	width: 100%;
+}
+.ques_form_error{
+	float: left;
+	width: 100%;
+	text-align: center;
+	display:none;
+	font-weight: bold;
+	color: #C13768;
+}
+
+@media only screen and (min-width: 768px){
+	.sellerinfo .wk_row{
+		float: left;
+		width: 100%;
+	}
+
+	.sellerinfo .wk_row label{
+		color: #333333;
+	    float: left;
+	    font-size: 14px;
+	    font-weight: bold;
+	    margin-bottom: 15px;
+	    padding-left: 25px;
+	    width: 50%;
+	}
+	.sellerinfo .wk_row span {
+	  float: left;
+	  width: 50%;
+	}
+}
+
+@media only screen and (max-width: 768px){
+	.sellerinfo .wk_row{
+		float: left;
+		width: 100%;
+		margin-bottom: 10px;
+	}
+
+	.sellerinfo .wk_row label{
+		color: #333333;
+	    float: left;
+	    font-size: 14px;
+	    font-weight: bold;
+	    padding-left: 25px;
+	    width: 100%;
+	}
+	.sellerinfo .wk_row span{
+		float: left;
+		width: 100%;
+		padding-left: 25px;
+	}
+}

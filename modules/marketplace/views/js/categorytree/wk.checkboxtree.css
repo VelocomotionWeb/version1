@@ -1,0 +1,21 @@
+div.checker,.ui-icon{
+	display: inline-block !important;
+}
+.leaf{
+	margin-left: 18px;
+}
+#tree1 label{
+	font-size:12px;
+	font-weight: normal;
+}
+/*css for admin category tree*/
+li{
+	list-style: none;
+}
+#tree1{
+	padding-left: 0;
+}
+#tree1 ul{
+	padding-left: 15px;
+}
+/*css for admin category tree end*/

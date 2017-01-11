@@ -1,0 +1,305 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	
+}
+
+body {
+	
+}
+/* Pour que les liens ne soient pas soulignés */
+a {
+	text-decoration: none;
+}
+
+img {
+	vertical-align: middle;
+}
+/* Conteneur principal des blocs de la page */
+#container {
+	width: 100%;
+	margin: 0 auto;
+	background: #ebedf4;
+}
+
+/* Bloc contenant la zone de texte et bouton */
+.post_message {
+	width: 95%;
+	margin: auto;
+	border: 1px solid #d2d2d2;
+	background: #f8fafd;
+	padding: 3px;
+}
+/* Zone de texte */
+.post_message #message {
+	width: 100%;
+	background-color: white;
+	min-height: 50px;
+}
+/* Bouton d'envoi */
+.post_message #post {
+	width: 18%;
+}
+
+/* La zone où sont affichés les messages
+et utilisateurs connectés */
+.chat {
+	border: 1px solid #d2d2d2;
+	margin: 2px auto 10px;
+	padding: 0;
+	width: 95%;
+}
+/* Bloc de chargement */
+.chat #loading {
+	margin-top: 50px;
+}
+/* Annonce */
+.chat #annonce {
+	background: #f8fafd;
+	margin: -6px -7px 5px -7px;
+	padding: 5px;
+	height: 20px;
+	box-shadow: 0px 8px 12px #aaa;
+	-webkit-box-shadow: 0px 8px 15px #aaa;
+}
+/* Zone des messages */
+.chat #text-td {
+	margin: 0px;
+	padding: 5px;
+	width: 80%;
+	background: #fff;
+}
+/* Zone des utilisateurs connectés */
+.chat #users-td,.chat #users-chat-td {
+	margin: 0px;
+	padding: 5px;
+	width: 20%;
+	background: #ddd;
+}
+
+.chat #text,.chat #users,.chat #users-chat {
+	height: 252px;
+	/*height: 220px;*/
+	overflow-y: auto;
+	background-color: white;
+}
+
+.chat span {
+	color: white;
+	border-radius: 5px;
+	border: 3px solid #428BCA;
+	background: #428BCA;
+	float: right;
+	padding: 2px;
+	margin: 2px 15px 2px 15px;
+	clear: both;
+}
+
+.chat .in {
+	color: white;
+	border-radius: 5px;
+	border: 3px solid #5CB85C;
+	background: #5CB85C;
+	float: left;
+	padding: 2px;
+	margin: 2px 15px 2px 15px;
+	clear: both;
+}
+
+.triangle-right {
+	background: linear-gradient(#2E88C4, #075698) repeat scroll 0 0
+		rgba(0, 0, 0, 0);
+	border-radius: 10px;
+	color: #FFFFFF;
+	margin: 1em 0 3em;
+	padding: 15px;
+	position: relative;
+}
+
+.triangle-right.right:after {
+	border-color: rgba(0, 0, 0, 0) #428BCA;
+	border-width: 11px 0 0 16px;
+	bottom: auto;
+	left: auto;
+	right: -18px;
+	top: 3px;
+}
+
+.triangle-right:after {
+	border-color: #428BCA rgba(0, 0, 0, 0);
+	border-style: solid;
+	border-width: 20px 0 0 20px;
+	bottom: -20px;
+	content: "";
+	display: block;
+	left: 50px;
+	position: absolute;
+	width: 0;
+}
+
+.triangle-right.left:after {
+	border-color: rgba(0, 0, 0, 0) #5CB85C;
+	border-width: 11px 16px 0 0;
+	bottom: auto;
+	left: -18px;
+	top: 3px;
+}
+
+/* Modification du statut */
+.status {
+	width: 95%;
+	border: none;
+	background: #ebedf4;
+	margin: auto;
+	text-align: right;
+}
+
+.info {
+	color: green;
+}
+
+/*************************************** onglet chat ************************************************/
+.btn_ddlx:hover {
+	background-color: #539cdb;
+}
+
+.btn_ddlx {
+	-moz-user-select: none;
+	background-color: #428bca;
+	background-image: none;
+	border: 1px solid rgba(0, 0, 0, 0);
+	border-radius: 4px;
+	color: #ffffff;
+	cursor: pointer;
+	display: inline;
+	float: right;
+	font-size: 14px;
+	font-weight: normal;
+	height: 100%;
+	line-height: 1.42857;
+	padding: 2px 4px;
+	text-align: center;
+	white-space: nowrap;
+	width: 80px;
+}
+
+.ddlx_merchant_window {
+	border-radius: 6px;
+	display: inline-block;
+	height: 10px;
+	width: 10px;
+	margin: 8px 0 0 20px;
+	float: left;
+}
+
+.ddlx_merchant_window_i {
+	border-radius: 6px;
+	display: inline-block;
+	height: 10px;
+	width: 10px;
+	margin: 2px 0 0 0;
+	float: left;
+}
+
+.ddlx_merchant_away {
+	background-color: #eea40b;
+}
+
+.ddlx_merchant_online {
+	background-color: #6acf6a;
+}
+
+.ddlx_merchant_offline {
+	background-color: #ec3333;
+}
+
+#dialog {
+	background: white;
+}
+
+.ui-dialog-titlebar {
+	background: white;
+	height: 30px;
+}
+
+.ui-dialog-titlebar-close {
+	float: right;
+	width: 21px;
+	padding: 1px;
+	margin-top: 5px;
+	height: 10px;
+}
+
+.ui-dialog .ui-dialog-title {
+	float: left;
+	margin: .1em 0;
+	white-space: nowrap;
+	width: 90%;
+	background: white;
+	margin-top: 5px;
+}
+
+#ddlx_live_chat_bottom {
+	background: none repeat scroll 0 0 #aaaaee;
+	border: 2px solid #efefef;
+	bottom: 0;
+	box-shadow: 8px 8px 10px #aaa;
+	height: 32px;
+	position: fixed;
+	right: 0;
+	width: 205px;
+	z-index: 20000;
+	border-radius: 8px;
+}
+
+#ddlx_live_chat_w {
+	bottom: 0;
+	box-sizing: content-box;
+	padding: 2px 0;
+	position: fixed;
+	right: 0;
+	width: 320px;
+	z-index: 30000;
+	border: 1px solid #aaa;
+	background: #ebedf4;
+}
+
+#ddlx_live_chat_reduce,#ddlx_live_chat_close {
+	background: url("../img/reduce.png") no-repeat;
+	display: block;
+	float: left;
+	height: 20px;
+	width: 20px;
+	cursor: pointer;
+	margin-right: 4px;
+}
+
+#ddlx_live_chat_close {
+	background: url("../img/close.png") no-repeat;
+	margin-right: 0;
+}
+
+#ddlx_live_chat_status {
+	float: left;
+	display: block;
+	width: 90%;
+	text-align: left;
+	line-height: 15px;
+	background: #ebedf4;
+}
+
+#ddlx_live_chat_bottom strong {
+	margin: 4px 0 0 5px;
+	top: 4px;
+	position: relative;
+}
+
+#ddlx_live_chat_status strong {
+	margin: 0 0 0 5px;
+	top: -2px;
+	position: relative;
+}
+
+.ddlx_live_chat_w_reduced {
+	bottom: -348px !important;
+}
