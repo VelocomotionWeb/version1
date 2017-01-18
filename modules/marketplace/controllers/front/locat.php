@@ -185,6 +185,7 @@ class MarketplaceLocatModuleFrontController extends ModuleFrontController
 			$name_shop = $shop["shop_name"];
             $orderby = Tools::getValue('orderby');
             $orderway = Tools::getValue('orderway');
+            $cityzip = Tools::getValue('cityzip');
 
             //default orderby and orderway
             if (!$orderby)
@@ -313,6 +314,7 @@ class MarketplaceLocatModuleFrontController extends ModuleFrontController
 				'store' => $store,
 				'mp_shop_product' => $mp_shop_product,
 				'products' => $products,
+				'citicodezip' => $cityzip,
 				'id_shop' => $id_shop,
 				'quantite'=> $quantite,
 				'date_depart'=> $date_depart,

@@ -15,15 +15,13 @@ class MarketplaceListModuleFrontController extends ModuleFrontController
 			$city = @split(",", $city);
 			$city = $city[0];
 		}
-        $lng = Tools::getValue('lng');
-        $lat = Tools::getValue('lat');
         $shop_link_rewrite = Tools::getValue('mp_shop_name');
         $shop_link_rewrite_ec = Tools::getValue('mp_shop_name');
         $id_category = Tools::getValue('id_category');
         $quantite = Tools::getValue('quantite');
-        $distance = Tools::getValue('distance');
-        $latitude = Tools::getValue('latitude');
-        $longitude = Tools::getValue('longitude');
+        $distance = '2900';
+        $latitude = '48.85661400000001';
+        $longitude = '2.3522219000000177';
         $date_depart = Tools::getValue('date_depart');
         $date_fin = Tools::getValue('date_fin');
 		if ( $date_depart == "") $date_depart = $this->dateadd('d', 1, date("d/m/Y"));
@@ -321,7 +319,7 @@ class MarketplaceListModuleFrontController extends ModuleFrontController
 				'date_fin'=> $date_fin,
 				'nameshop' => $name_shop
 				));
-            $this->setTemplate('list.tpl');
+            $this->setTemplate('locat.tpl');
         }
     }
 

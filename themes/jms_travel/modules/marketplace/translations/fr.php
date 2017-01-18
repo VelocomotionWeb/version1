@@ -220,7 +220,30 @@ $_MODULE['<{marketplace}jms_travel>shopcollection_ba9de8ebe9a25183760b525228ec0f
 	$_MODULE['<{marketplace}jms_travel>list_4382b33bf4564d6f7d38bf1ef819373a'] = 'et à proximité';
 	$_MODULE['<{marketplace}jms_travel>list_c61ab4204f572e9b3aa84a040e0dab31'] = 'Voir les produits';
 	$_MODULE['<{marketplace}jms_travel>list_90aec0d78efa4f86fe4ad2b7e98fc23f'] = 'Détail loueur';
-	
+
+
+
+
+
+
+	$_MODULE['<{marketplace}jms_travel>locat_7f41186f64717af909e4fd69e8da6585'] = 'Louer';
+	$_MODULE['<{marketplace}jms_travel>locat_785d36ca1dc993e7cde511a0d50f6a50'] = 'En panier';
+	$_MODULE['<{marketplace}jms_travel>locat_66f9c6c5b672ee16deeef6e4503cb4bc'] = 'Réservé';
+	$_MODULE['<{marketplace}jms_travel>locat_81c11d7424a2d7d3c3323b5627e37774'] = 'Liste des vélos disponibles pour';
+	$_MODULE['<{marketplace}jms_travel>locat_def53c8e09dc19795de8bea7499563c3'] = 'Pas de vélos disponibles...';
+	$_MODULE['<{marketplace}jms_travel>locat_ba9de8ebe9a25183760b525228ec0f71'] = 'Location ajoutée au panier, Continuez vos réservations';
+	$_MODULE['<{marketplace}jms_travel>locat_ee6833948fee4900788962f26ad57e32'] = 'Du';
+	$_MODULE['<{marketplace}jms_travel>locat_ead99c2fbd1b40a59695567afb14c26c'] = 'au';
+	$_MODULE['<{marketplace}jms_travel>locat_c4ad57a2c37893918ba243790304c2f0'] = 'soit';
+	$_MODULE['<{marketplace}jms_travel>locat_628b7db04235f228d40adc671413a8c8'] = 'jour';
+	$_MODULE['<{marketplace}jms_travel>locat_44fdec47036f482b68b748f9d786801b'] = 'jours';
+	$_MODULE['<{marketplace}jms_travel>locat_2d0f6b8300be19cf35e89e66f0677f95'] = 'Louer ce produit';
+
+	$_MODULE['<{marketplace}jms_travel>locat_ed50a35dc235e5e16fad02f6e8186394'] = 'Loueurs trouvés à';
+	$_MODULE['<{marketplace}jms_travel>locat_4382b33bf4564d6f7d38bf1ef819373a'] = 'et à proximité';
+	$_MODULE['<{marketplace}jms_travel>locat_c61ab4204f572e9b3aa84a040e0dab31'] = 'Voir les produits';
+	$_MODULE['<{marketplace}jms_travel>locat_90aec0d78efa4f86fe4ad2b7e98fc23f'] = 'Détail loueur';
+
 
 
 $_MODULE['<{marketplace}jms_travel>shopdetail_675e31b94580e2642405e2f8586d112e'] = 'VELOCOMOTION';
